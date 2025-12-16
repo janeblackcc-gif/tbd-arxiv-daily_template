@@ -1,11 +1,11 @@
 # TODO: add papers by configuration file
 base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
-user_name: "Vincentqyw"
-repo_name: "cv-arxiv-daily"
+user_name: "janeblackcc"
+repo_name: "tbd-arxiv-daily"
 show_authors: True
-show_links: True
+show_links: false
 show_badge: True
-max_results: 10
+max_results: 50
 
 publish_readme: True
 publish_gitpage: True
@@ -20,20 +20,24 @@ md_readme_path: 'README.md'
 md_gitpage_path: './docs/index.md'
 md_wechat_path: './docs/wechat.md'
 
-# keywords to search
 keywords:
-    "SLAM": 
-        filters: ["SLAM", "Visual Odometry"]
-    "SFM":
-        filters: ["SFM", "Structure from Motion"]
-    "Visual Localization":
-        filters: ["Visual Localization","Camera Localization",
-                  "Camera Re-localisation","Loop Closure Detection",
-                  "visual place recognition","image retrieval"]
-    "Keypoint Detection":
-        filters: ["Keypoint Detection", "Feature Descriptor"]
-    "Image Matching":
-        filters: ["Image Matching", "Keypoint Matching", 
-                  "Line Segment Detection", "Local Feature Matching"]
-    "NeRF":
-        filters: ["NeRF"]
+  "Radar Multi-Target Tracking (MTT)":
+    filters:
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("multi-target tracking" OR "multiple target tracking" OR "multi object tracking" OR MTT)'
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("data association" OR JPDA OR "multiple hypothesis tracking" OR MHT)'
+
+  "Track-Before-Detect (TBD)":
+    filters:
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("track-before-detect" OR "track before detect" OR "joint detection and tracking" OR "integrated detection and tracking")'
+
+  "Extended / Group / Cluster Target Tracking":
+    filters:
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("extended target tracking" OR "group target tracking" OR "cluster target" OR "swarm target")'
+
+  "Ballistic / Missile Target Tracking":
+    filters:
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND (ballistic OR missile OR "re-entry") AND (tracking OR estimation OR trajectory)'
+
+  "RFS / FISST Filters (often used in radar MTT)":
+    filters:
+      - '(cat:eess.SP OR cat:eess.SY OR cat:stat.ME) AND all:radar AND ("random finite set" OR RFS OR FISST OR PHD OR CPHD OR GLMB OR PMBM)'
