@@ -21,23 +21,54 @@ md_gitpage_path: './docs/index.md'
 md_wechat_path: './docs/wechat.md'
 
 keywords:
+  # ===== 传统/经典 MTT & 数据关联 =====
   "Radar Multi-Target Tracking (MTT)":
     filters:
-      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("multi-target tracking" OR "multiple target tracking" OR "multi object tracking" OR MTT)'
-      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("data association" OR JPDA OR "multiple hypothesis tracking" OR MHT)'
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("multi-target tracking" OR "multiple target tracking" OR MTT OR "multi target")'
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND (tracking AND (Kalman OR "particle filter" OR IMM OR "state estimation"))'
+
+  "Data Association (JPDA / MHT / PDA)":
+    filters:
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("data association" OR JPDA OR "joint probabilistic data association" OR PDA OR MHT OR "multiple hypothesis tracking")'
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("gating" OR "measurement-to-track association" OR "track management")'
+
+  "RFS / FISST (PHD / CPHD / GLMB / PMBM)":
+    filters:
+      - '(cat:eess.SP OR cat:eess.SY OR cat:stat.ME) AND all:radar AND ("random finite set" OR RFS OR FISST OR PHD OR CPHD OR LMB OR GLMB OR PMBM OR "multi-Bernoulli")'
 
   "Track-Before-Detect (TBD)":
     filters:
-      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("track-before-detect" OR "track before detect" OR "joint detection and tracking" OR "integrated detection and tracking")'
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("track-before-detect" OR "track before detect" OR TBD OR "integrated detection and tracking")'
 
-  "Extended / Group / Cluster Target Tracking":
+  "Extended / Group / Cluster Targets":
     filters:
-      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("extended target tracking" OR "group target tracking" OR "cluster target" OR "swarm target")'
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND ("extended target tracking" OR "extended object tracking" OR "group target" OR "cluster target" OR "swarm target")'
 
-  "Ballistic / Missile Target Tracking":
+  "Ballistic / Missile / Re-entry Tracking":
     filters:
-      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND (ballistic OR missile OR "re-entry") AND (tracking OR estimation OR trajectory)'
+      - '(cat:eess.SP OR cat:eess.SY) AND all:radar AND (ballistic OR missile OR "re-entry" OR "reentry") AND (tracking OR estimation OR trajectory)'
 
-  "RFS / FISST Filters (often used in radar MTT)":
+  # ===== 深度学习雷达检测/跟踪（含点云/时频/车载等）=====
+  "Deep Learning for Radar Detection & Tracking":
     filters:
-      - '(cat:eess.SP OR cat:eess.SY OR cat:stat.ME) AND all:radar AND ("random finite set" OR RFS OR FISST OR PHD OR CPHD OR GLMB OR PMBM)'
+      - '(cat:eess.SP OR cat:eess.SY OR cat:cs.LG OR cat:cs.AI) AND all:radar AND (tracking OR "multi-target") AND ("deep learning" OR "neural network" OR transformer OR "graph neural" OR GNN)'
+
+  "Radar Point Cloud Tracking (mmWave / automotive)":
+    filters:
+      - '(cat:eess.SP OR cat:eess.SY OR cat:cs.LG) AND (all:radar OR all:mmwave OR all:"mmWave") AND ("point cloud" OR pointcloud) AND (tracking OR "object tracking")'
+      - '(cat:eess.SP OR cat:eess.SY OR cat:cs.LG) AND (FMCW OR "frequency modulated continuous wave") AND tracking'
+
+  "Range-Doppler / Micro-Doppler (learning-based)":
+    filters:
+      - '(cat:eess.SP OR cat:eess.SY OR cat:cs.LG) AND all:radar AND ("range-doppler" OR "range Doppler" OR micro-doppler OR "micro Doppler") AND (tracking OR detection OR classification)'
+
+  # ===== ISAC / JCAS / RadCom（你如果也想看通信+感知一体化里的跟踪）=====
+  "ISAC / JCAS / RadCom Tracking":
+    filters:
+      - '(cat:eess.SP OR cat:eess.SY) AND (ISAC OR JCAS OR "integrated sensing and communication" OR "joint communication and sensing" OR RadCom OR "radar-communication") AND (tracking OR "multi-target")'
+
+  # =====（可选）多传感器融合：如果你也想看 radar+camera/lidar 的跟踪 =====
+  "Radar Sensor Fusion Tracking (optional)":
+    filters:
+      - '(cat:eess.SP OR cat:eess.SY OR cat:cs.CV) AND all:radar AND ("sensor fusion" OR multisensor OR "multi-sensor") AND (tracking OR "object tracking")'
+
