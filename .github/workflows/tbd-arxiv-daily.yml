@@ -1,0 +1,170 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Run Arxiv Papers Daily
+
+on:
+  workflow_dispatch:
+  # GitHub cron is in UTC. 01:00 UTC = 09:00 Beijing Time (UTC+8)
+  schedule:
+    - cron: "0 1 * * *"
+
+env:
+  GITHUB_USER_NAME: janeblackcc
+  GITHUB_USER_EMAIL: 1269538586@qq.com
+
+jobs:
+  build:
+    name: update
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python Env
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install arxiv
+          pip install requests
+          pip install pyyaml
+
+      # Snapshot old paper ids BEFORE updating, so we can compute "新增 X 篇"
+      - name: Snapshot old paper ids
+        run: |
+          python - <<'PY'
+          import json, os, re
+
+          path = "docs/cv-arxiv-daily.json"
+          arxiv_pat = re.compile(r'(\d{4}\.\d{4,5})(v\d+)?')
+
+          def collect_ids(obj, out):
+            if isinstance(obj, dict):
+              for k in ["paper_id","arxiv_id","id","entry_id","url","paper_url","pdf","pdf_url"]:
+                v = obj.get(k)
+                if isinstance(v, str):
+                  m = arxiv_pat.search(v)
+                  if m:
+                    out.add(m.group(1))
+              for v in obj.values():
+                collect_ids(v, out)
+            elif isinstance(obj, list):
+              for x in obj:
+                collect_ids(x, out)
+
+          ids = set()
+          if os.path.exists(path) and os.path.getsize(path) > 0:
+            try:
+              with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+              collect_ids(data, ids)
+            except Exception:
+              pass
+
+          with open("old_ids.txt", "w", encoding="utf-8") as f:
+            for x in sorted(ids):
+              f.write(x + "\n")
+
+          print(f"old_ids={len(ids)}")
+          PY
+
+      - name: Run daily arxiv
+        run: |
+          python daily_arxiv.py
+
+      - name: Push updated files
+        uses: github-actions-x/commit@v2.9
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Github Action Automatic Update Arxiv Papers"
+          files: README.md docs/cv-arxiv-daily.json docs/cv-arxiv-daily-web.json docs/index.md docs/cv-arxiv-daily-wechat.json docs/wechat.md
+          rebase: 'true'
+          name: ${{ env.GITHUB_USER_NAME }}
+          email: ${{ env.GITHUB_USER_EMAIL }}
+
+      - name: Notify Feishu
+        if: success()
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+        run: |
+          python - <<'PY'
+          import os, time, base64, hmac, hashlib, json, urllib.request, re
+
+          webhook = os.environ.get("FEISHU_WEBHOOK", "").strip()
+          if not webhook:
+            raise SystemExit("Missing FEISHU_WEBHOOK secret")
+
+          secret = os.environ.get("FEISHU_SECRET", "").strip()
+          ts = int(time.time())
+
+          arxiv_pat = re.compile(r'(\d{4}\.\d{4,5})(v\d+)?')
+
+          def load_old_ids():
+            ids = set()
+            if os.path.exists("old_ids.txt"):
+              with open("old_ids.txt", "r", encoding="utf-8") as f:
+                for line in f:
+                  line = line.strip()
+                  if line:
+                    ids.add(line)
+            return ids
+
+          def load_new_ids():
+            path = "docs/cv-arxiv-daily.json"
+            ids = set()
+            if not os.path.exists(path) or os.path.getsize(path) == 0:
+              return ids
+
+            with open(path, "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+            def collect(obj):
+              if isinstance(obj, dict):
+                for k in ["paper_id","arxiv_id","id","entry_id","url","paper_url","pdf","pdf_url"]:
+                  v = obj.get(k)
+                  if isinstance(v, str):
+                    m = arxiv_pat.search(v)
+                    if m:
+                      ids.add(m.group(1))
+                for v in obj.values():
+                  collect(v)
+              elif isinstance(obj, list):
+                for x in obj:
+                  collect(x)
+
+            collect(data)
+            return ids
+
+          old_ids = load_old_ids()
+          new_ids = load_new_ids()
+          added = len(new_ids - old_ids)
+
+          repo = os.environ.get("GITHUB_REPOSITORY", "")
+          run_id = os.environ.get("GITHUB_RUN_ID", "")
+          run_url = f"https://github.com/{repo}/actions/runs/{run_id}" if repo and run_id else ""
+
+          text = f"📡 雷达论文日报已更新 ✅\n新增 {added} 篇\n仓库：https://github.com/{repo}"
+          if run_url:
+            text += f"\n本次运行：{run_url}"
+
+          body = {"msg_type": "text", "content": {"text": text}}
+
+          # If you enabled "signature verification" in Feishu bot settings, provide FEISHU_SECRET.
+          if secret:
+            string_to_sign = f"{ts}\n{secret}".encode("utf-8")
+            sign = base64.b64encode(hmac.new(string_to_sign, b"", hashlib.sha256).digest()).decode("utf-8")
+            body.update({"timestamp": str(ts), "sign": sign})
+
+          req = urllib.request.Request(
+            webhook,
+            data=json.dumps(body).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+          )
+          with urllib.request.urlopen(req) as resp:
+            print(resp.read().decode("utf-8"))
+          PY
