@@ -2,58 +2,88 @@
 
 name: Run Arxiv Papers Daily
 
-# Controls when the workflow will run
 on:
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  # GitHub cron is in UTC. 01:00 UTC = 09:00 Beijing Time (UTC+8)
   schedule:
     - cron: "0 1 * * *"
-  # Triggers the workflow on push or pull request events but only for the main branch
-#   push:
-#     branches:
-#     - main
 
 env:
-
   GITHUB_USER_NAME: janeblackcc
   GITHUB_USER_EMAIL: 1269538586@qq.com
-  
-  
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+
 jobs:
-  # This workflow contains a single job called "build"
   build:
     name: update
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    
-    # Steps represent a sequence of tasks that will be executed as part of the job
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        
+
       - name: Set up Python Env
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-          #architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install arxiv
           pip install requests
           pip install pyyaml
-          
-      - name: Run daily arxiv 
+
+      - name: Run daily arxiv
         run: |
           python daily_arxiv.py
-          
-      - name: Push new cv-arxiv-daily.md
+
+      - name: Push updated files
         uses: github-actions-x/commit@v2.9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Github Action Automatic Update CV Arxiv Papers"
+          commit-message: "Github Action Automatic Update Arxiv Papers"
           files: README.md docs/cv-arxiv-daily.json docs/cv-arxiv-daily-web.json docs/index.md docs/cv-arxiv-daily-wechat.json docs/wechat.md
           rebase: 'true'
           name: ${{ env.GITHUB_USER_NAME }}
           email: ${{ env.GITHUB_USER_EMAIL }}
+
+      - name: Notify Feishu
+        if: success()
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+        run: |
+          python - <<'PY'
+          import os, time, base64, hmac, hashlib, json, urllib.request
+
+          webhook = os.environ.get("FEISHU_WEBHOOK", "").strip()
+          if not webhook:
+            raise SystemExit("Missing FEISHU_WEBHOOK secret")
+
+          secret = os.environ.get("FEISHU_SECRET", "").strip()
+          ts = int(time.time())
+
+          repo = os.environ.get("GITHUB_REPOSITORY", "")
+          run_id = os.environ.get("GITHUB_RUN_ID", "")
+          run_url = f"https://github.com/{repo}/actions/runs/{run_id}" if repo and run_id else ""
+
+          text = f"📡 雷达论文日报已更新 ✅\n仓库：https://github.com/{repo}"
+          if run_url:
+            text += f"\n本次运行：{run_url}"
+
+          body = {"msg_type": "text", "content": {"text": text}}
+
+          # If you enabled "signature verification" in Feishu bot settings, provide FEISHU_SECRET.
+          if secret:
+            string_to_sign = f"{ts}\n{secret}".encode("utf-8")
+            sign = base64.b64encode(hmac.new(string_to_sign, b"", hashlib.sha256).digest()).decode("utf-8")
+            body.update({"timestamp": str(ts), "sign": sign})
+
+          req = urllib.request.Request(
+            webhook,
+            data=json.dumps(body).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+          )
+          with urllib.request.urlopen(req) as resp:
+            print(resp.read().decode("utf-8"))
+          PY
