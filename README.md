@@ -1,4 +1,4 @@
-## Updated on 2025.12.20
+## Updated on 2025.12.21
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -273,7 +273,7 @@
 |**2025-12-15**|**Hyper-Minrank: A Unified Hypergraph Characterization of Multi-Sender Index Coding**|Ali Khalesi et.al.|[2512.13615](http://arxiv.org/abs/2512.13615)|null|
 |**2025-12-15**|**Quantum channel tomography and estimation by local test**|Kean Chen et.al.|[2512.13614](http://arxiv.org/abs/2512.13614)|null|
 
-<p align=right>(<a href=#updated-on-20251220>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251221>back to top</a>)</p>
 
 ## Data Association (JPDA / MHT / PDA)
 
@@ -530,7 +530,7 @@
 |**2025-12-15**|**A new data weighted averaging algorithm to reduce tones in the signal band**|Marta Laguna et.al.|[2512.13605](http://arxiv.org/abs/2512.13605)|null|
 |**2025-12-15**|**DA-SSL: self-supervised domain adaptor to leverage foundational models in turbt histopathology slides**|Haoyue Zhang et.al.|[2512.13600](http://arxiv.org/abs/2512.13600)|null|
 
-<p align=right>(<a href=#updated-on-20251220>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251221>back to top</a>)</p>
 
 ## RFS / FISST (PHD / CPHD / GLMB / PMBM)
 
@@ -771,7 +771,7 @@
 |**2025-12-15**|**Learning under Distributional Drift: Reproducibility as an Intrinsic Statistical Resource**|Sofiya Zaichyk et.al.|[2512.13506](http://arxiv.org/abs/2512.13506)|null|
 |**2025-12-15**|**From Zipf's Law to Neural Scaling through Heaps' Law and Hilberg's Hypothesis**|Łukasz Dębowski et.al.|[2512.13491](http://arxiv.org/abs/2512.13491)|null|
 
-<p align=right>(<a href=#updated-on-20251220>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251221>back to top</a>)</p>
 
 ## Track-Before-Detect (TBD)
 
@@ -1028,7 +1028,7 @@
 |**2025-12-15**|**Identification of radio and gamma-ray pulsars in X-rays using data from the SRG/eROSITA all-sky survey**|Yu. A. Shibanov et.al.|[2512.13584](http://arxiv.org/abs/2512.13584)|null|
 |**2025-12-15**|**Spectral analysis of attached and separated turbulent flows over a Gaussian-shaped bump**|Roman Klopsch et.al.|[2512.13582](http://arxiv.org/abs/2512.13582)|null|
 
-<p align=right>(<a href=#updated-on-20251220>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251221>back to top</a>)</p>
 
 ## Extended / Group / Cluster Targets
 
@@ -1285,7 +1285,7 @@
 |**2025-12-15**|**Image Diffusion Preview with Consistency Solver**|Fu-Yun Wang et.al.|[2512.13592](http://arxiv.org/abs/2512.13592)|null|
 |**2025-12-15**|**astroCAMP: A Community Benchmark and Co-Design Framework for Sustainable SKA-Scale Radio Imaging**|Denisa-Andreea Constantinescu et.al.|[2512.13591](http://arxiv.org/abs/2512.13591)|null|
 
-<p align=right>(<a href=#updated-on-20251220>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251221>back to top</a>)</p>
 
 ## Ballistic / Missile / Re-entry Tracking
 
@@ -1527,7 +1527,7 @@
 |**2025-12-15**|**Deployable Prototype Testing and Control Allocation of the CABLESSail Concept for Solar Sail Shape Control and Momentum Management**|Soojeong Lee et.al.|[2512.13493](http://arxiv.org/abs/2512.13493)|null|
 |**2025-12-15**|**Impact analysis of hidden faults in nonlinear control systems using output-to-output gain**|Ruslan Seifullaev et.al.|[2512.13483](http://arxiv.org/abs/2512.13483)|null|
 
-<p align=right>(<a href=#updated-on-20251220>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251221>back to top</a>)</p>
 
 ## Deep Learning for Radar Detection & Tracking
 
@@ -1784,7 +1784,7 @@
 |**2025-12-15**|**World Models Can Leverage Human Videos for Dexterous Manipulation**|Raktim Gautam Goswami et.al.|[2512.13644](http://arxiv.org/abs/2512.13644)|null|
 |**2025-12-15**|**Follow Nudges without Budges: A Field Experiment on Misinformation Followers Didn't Change Follow Networks**|Laura Kurek et.al.|[2512.13643](http://arxiv.org/abs/2512.13643)|null|
 
-<p align=right>(<a href=#updated-on-20251220>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251221>back to top</a>)</p>
 
 ## Radar Point Cloud Tracking (mmWave / automotive)
 
@@ -2041,7 +2041,7 @@
 |**2025-12-15**|**World Models Can Leverage Human Videos for Dexterous Manipulation**|Raktim Gautam Goswami et.al.|[2512.13644](http://arxiv.org/abs/2512.13644)|null|
 |**2025-12-15**|**Follow Nudges without Budges: A Field Experiment on Misinformation Followers Didn't Change Follow Networks**|Laura Kurek et.al.|[2512.13643](http://arxiv.org/abs/2512.13643)|null|
 
-<p align=right>(<a href=#updated-on-20251220>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251221>back to top</a>)</p>
 
 ## Range-Doppler / Micro-Doppler (learning-based)
 
@@ -2295,7 +2295,7 @@
 |**2025-12-15**|**A Class of Accelerated Fixed-Point-Based Methods with Delayed Inexact Oracles and Its Applications**|Nghia Nguyen-Trung et.al.|[2512.13547](http://arxiv.org/abs/2512.13547)|null|
 |**2025-12-15**|**The classical-quantum disproportionation transition and magnetic ordering in RNiO $_3$ nickelates**|A. S. Moskvin et.al.|[2512.13540](http://arxiv.org/abs/2512.13540)|null|
 
-<p align=right>(<a href=#updated-on-20251220>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251221>back to top</a>)</p>
 
 ## ISAC / JCAS / RadCom Tracking
 
@@ -2552,7 +2552,7 @@
 |**2025-12-15**|**Adaptive Efficiency Optimization in SDLC: An MILP Approach for Balanced and Cost-Effective Resource Allocation**|Lokendra Kumar et.al.|[2512.13577](http://arxiv.org/abs/2512.13577)|null|
 |**2025-12-15**|**Reproducing and Dissecting Denoising Language Models for Speech Recognition**|Dorian Koch et.al.|[2512.13576](http://arxiv.org/abs/2512.13576)|null|
 
-<p align=right>(<a href=#updated-on-20251220>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251221>back to top</a>)</p>
 
 ## Radar Sensor Fusion Tracking (optional)
 
@@ -2783,7 +2783,7 @@
 |**2025-12-15**|**A Multi-Worker Assembly Line Rebalancing with Spatial and Ergonomic Considerations**|Martina Vinetti et.al.|[2512.13331](http://arxiv.org/abs/2512.13331)|null|
 |**2025-12-15**|**Shadows of rotating traversable wormholes surrounded by plasma**|Tsanimir Angelov et.al.|[2512.13327](http://arxiv.org/abs/2512.13327)|null|
 
-<p align=right>(<a href=#updated-on-20251220>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251221>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
