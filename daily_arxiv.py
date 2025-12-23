@@ -338,7 +338,8 @@ def demo(**config):
     data_collector = []
     data_collector_web= []
 
-    keywords = config['kv']
+        # ✅ 用原始 config['keywords']，不要用 config['kv']（kv 会把复杂 query 变成带引号的字符串，导致乱抓）
+    keywords = config.get('keywords', {})
     max_results = config['max_results']
     publish_readme = config['publish_readme']
     publish_gitpage = config['publish_gitpage']
@@ -347,33 +348,49 @@ def demo(**config):
 
     b_update = config['update_paper_links']
     logging.info(f'Update Paper Link = {b_update}')
+
     if config['update_paper_links'] == False:
-        logging.info(f"GET daily papers begin")
-        for topic, keyword in keywords.items():
+        logging.info("GET daily papers begin")
+
+        for topic, spec in keywords.items():
             logging.info(f"Keyword: {topic}")
 
-
-            if isinstance(keyword, dict) and "filters" in keyword:
-                fs = keyword.get("filters", [])
-                if isinstance(fs, list):
-                    # OR all filters together; wrap each filter with parentheses for safety
-                    query = " OR ".join([f"({str(x).strip()})" for x in fs if str(x).strip()])
-                else:
-                    query = str(fs).strip()
+            # spec 支持两种写法：
+            # 1) dict: {"filters": [q1, q2, ...]}
+            # 2) str : "single query"
+            if isinstance(spec, dict) and "filters" in spec:
+                filters = spec.get("filters", [])
+                if not isinstance(filters, list):
+                    filters = [str(filters)]
             else:
-                query = str(keyword).strip()
-        
-            if not query:
-                logging.warning(f"Empty query for topic={topic}, skipped.")
-                continue
-        
-            data, data_web = get_daily_papers(topic, query=query, max_results=max_results)
-        
-            data_collector.append(data)
-            data_collector_web.append(data_web)
+                filters = [str(spec)]
+
+            # 每个 filter 给一点额度，避免一个 topic 抓太多
+            per_filter = max(1, max_results // max(1, len(filters)))
+
+            topic_content = {}
+            topic_content_web = {}
+
+            for q in filters:
+                q = str(q).strip()
+                if not q:
+                    continue
+
+                # ✅ 用日志确认最终 query（跑一次后你可以删掉这行）
+                logging.info(f"[QUERY] {topic}: {q}")
+
+                data, data_web = get_daily_papers(topic, query=q, max_results=per_filter)
+
+                # data 的结构是 {topic: {paper_key: row_str}}
+                topic_content.update(data[topic])           # paper_key 会自动去重
+                topic_content_web.update(data_web[topic])   # paper_key 会自动去重
+
+            data_collector.append({topic: topic_content})
+            data_collector_web.append({topic: topic_content_web})
             print("\n")
-        
+
         logging.info("GET daily papers end")
+
 
 
     # 1. update README.md file
