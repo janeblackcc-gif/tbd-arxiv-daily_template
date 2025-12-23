@@ -351,12 +351,30 @@ def demo(**config):
         logging.info(f"GET daily papers begin")
         for topic, keyword in keywords.items():
             logging.info(f"Keyword: {topic}")
-            data, data_web = get_daily_papers(topic, query = keyword,
-                                            max_results = max_results)
+
+
+            if isinstance(keyword, dict) and "filters" in keyword:
+                fs = keyword.get("filters", [])
+                if isinstance(fs, list):
+                    # OR all filters together; wrap each filter with parentheses for safety
+                    query = " OR ".join([f"({str(x).strip()})" for x in fs if str(x).strip()])
+                else:
+                    query = str(fs).strip()
+            else:
+                query = str(keyword).strip()
+        
+            if not query:
+                logging.warning(f"Empty query for topic={topic}, skipped.")
+                continue
+        
+            data, data_web = get_daily_papers(topic, query=query, max_results=max_results)
+        
             data_collector.append(data)
             data_collector_web.append(data_web)
             print("\n")
-        logging.info(f"GET daily papers end")
+        
+        logging.info("GET daily papers end")
+
 
     # 1. update README.md file
     if publish_readme:
