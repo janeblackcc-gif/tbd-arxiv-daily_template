@@ -24,7 +24,7 @@ jobs:
       - name: Set up Python Env
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
       - name: Install dependencies
         run: |
@@ -33,48 +33,74 @@ jobs:
           pip install requests
           pip install pyyaml
 
-      # Snapshot old paper ids BEFORE updating, so we can compute "新增 X 篇"
-      - name: Snapshot old paper ids
+      # Snapshot old paper keys BEFORE updating, so we can compute "新增 X 篇"
+      # Use JSON dict keys (paper_key) which are stable in this repo's data structure.
+      - name: Snapshot old paper keys
         run: |
           python - <<'PY'
-          import json, os, re
+          import json, os
 
           path = "docs/cv-arxiv-daily.json"
-          arxiv_pat = re.compile(r'(\d{4}\.\d{4,5})(v\d+)?')
+          old = set()
 
-          def collect_ids(obj, out):
-            if isinstance(obj, dict):
-              for k in ["paper_id","arxiv_id","id","entry_id","url","paper_url","pdf","pdf_url"]:
-                v = obj.get(k)
-                if isinstance(v, str):
-                  m = arxiv_pat.search(v)
-                  if m:
-                    out.add(m.group(1))
-              for v in obj.values():
-                collect_ids(v, out)
-            elif isinstance(obj, list):
-              for x in obj:
-                collect_ids(x, out)
-
-          ids = set()
           if os.path.exists(path) and os.path.getsize(path) > 0:
             try:
               with open(path, "r", encoding="utf-8") as f:
                 data = json.load(f)
-              collect_ids(data, ids)
+              if isinstance(data, dict):
+                for _, papers in data.items():
+                  if isinstance(papers, dict):
+                    old.update(papers.keys())
             except Exception:
               pass
 
-          with open("old_ids.txt", "w", encoding="utf-8") as f:
-            for x in sorted(ids):
-              f.write(x + "\n")
+          with open("old_keys.txt", "w", encoding="utf-8") as f:
+            for k in sorted(old):
+              f.write(k + "\n")
 
-          print(f"old_ids={len(ids)}")
+          print("old_keys =", len(old))
           PY
 
       - name: Run daily arxiv
         run: |
           python daily_arxiv.py
+
+      # Compute added count AFTER updating and export to next steps
+      - name: Compute added count
+        run: |
+          python - <<'PY'
+          import json, os
+
+          def read_set(p):
+            s=set()
+            if os.path.exists(p):
+              with open(p, "r", encoding="utf-8") as f:
+                for line in f:
+                  line=line.strip()
+                  if line:
+                    s.add(line)
+            return s
+
+          old = read_set("old_keys.txt")
+
+          path = "docs/cv-arxiv-daily.json"
+          new = set()
+          if os.path.exists(path) and os.path.getsize(path) > 0:
+            with open(path, "r", encoding="utf-8") as f:
+              data = json.load(f)
+            if isinstance(data, dict):
+              for _, papers in data.items():
+                if isinstance(papers, dict):
+                  new.update(papers.keys())
+
+          added = len(new - old)
+
+          env_path = os.environ.get("GITHUB_ENV")
+          with open(env_path, "a", encoding="utf-8") as f:
+            f.write(f"ADDED_COUNT={added}\n")
+
+          print("added =", added)
+          PY
 
       - name: Push updated files
         uses: github-actions-x/commit@v2.9
@@ -82,7 +108,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Github Action Automatic Update Arxiv Papers"
           files: README.md docs/cv-arxiv-daily.json docs/cv-arxiv-daily-web.json docs/index.md docs/cv-arxiv-daily-wechat.json docs/wechat.md
-          rebase: 'true'
+          rebase: "true"
           name: ${{ env.GITHUB_USER_NAME }}
           email: ${{ env.GITHUB_USER_EMAIL }}
 
@@ -91,9 +117,10 @@ jobs:
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
           FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+          ADDED_COUNT: ${{ env.ADDED_COUNT }}
         run: |
           python - <<'PY'
-          import os, time, base64, hmac, hashlib, json, urllib.request, re
+          import os, time, base64, hmac, hashlib, json, urllib.request
 
           webhook = os.environ.get("FEISHU_WEBHOOK", "").strip()
           if not webhook:
@@ -102,51 +129,11 @@ jobs:
           secret = os.environ.get("FEISHU_SECRET", "").strip()
           ts = int(time.time())
 
-          arxiv_pat = re.compile(r'(\d{4}\.\d{4,5})(v\d+)?')
-
-          def load_old_ids():
-            ids = set()
-            if os.path.exists("old_ids.txt"):
-              with open("old_ids.txt", "r", encoding="utf-8") as f:
-                for line in f:
-                  line = line.strip()
-                  if line:
-                    ids.add(line)
-            return ids
-
-          def load_new_ids():
-            path = "docs/cv-arxiv-daily.json"
-            ids = set()
-            if not os.path.exists(path) or os.path.getsize(path) == 0:
-              return ids
-
-            with open(path, "r", encoding="utf-8") as f:
-              data = json.load(f)
-
-            def collect(obj):
-              if isinstance(obj, dict):
-                for k in ["paper_id","arxiv_id","id","entry_id","url","paper_url","pdf","pdf_url"]:
-                  v = obj.get(k)
-                  if isinstance(v, str):
-                    m = arxiv_pat.search(v)
-                    if m:
-                      ids.add(m.group(1))
-                for v in obj.values():
-                  collect(v)
-              elif isinstance(obj, list):
-                for x in obj:
-                  collect(x)
-
-            collect(data)
-            return ids
-
-          old_ids = load_old_ids()
-          new_ids = load_new_ids()
-          added = len(new_ids - old_ids)
-
           repo = os.environ.get("GITHUB_REPOSITORY", "")
           run_id = os.environ.get("GITHUB_RUN_ID", "")
           run_url = f"https://github.com/{repo}/actions/runs/{run_id}" if repo and run_id else ""
+
+          added = os.environ.get("ADDED_COUNT", "0")
 
           text = f"📡 雷达论文日报已更新 ✅\n新增 {added} 篇\n仓库：https://github.com/{repo}"
           if run_url:
