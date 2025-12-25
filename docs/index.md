@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2025.12.24
+## Updated on 2025.12.25
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -351,6 +351,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-12-24**|**Reconfigurable Intelligent Surface-Enhanced Satellite Networks: Deployment Strategies, Key Capabilities, Practical Solutions, and Future Directions**|Ziyuan Zheng et.al.|[2512.20982](http://arxiv.org/abs/2512.20982)|null|
 |**2025-12-16**|**Fusion of Cellular ISAC and Passive RF Sensing for UAV Detection and Tracking**|Cole Dickerson et.al.|[2512.14608](http://arxiv.org/abs/2512.14608)|null|
 |**2025-12-09**|**A New Particle Filter for Target Tracking in MIMO OFDM Integrated Sensing and Communications**|Shixiong Wang et.al.|[2512.09098](http://arxiv.org/abs/2512.09098)|null|
 |**2025-12-09**|**Metasurfaces Enable Active-Like Passive Radar**|Mingyi Li et.al.|[2512.08208](http://arxiv.org/abs/2512.08208)|null|
