@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2025.12.31
+## Updated on 2026.01.01
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -107,6 +107,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-12-31**|**No Vision, No Wearables: 5G-based 2D Human Pose Recognition with Integrated Sensing and Communications**|Haojin Li et.al.|[2512.24923](http://arxiv.org/abs/2512.24923)|null|
 |**2025-12-19**|**Rydberg Atomic RF Sensor-based Quantum Radar**|Sourav Banerjee et.al.|[2512.17421](http://arxiv.org/abs/2512.17421)|null|
 |**2025-12-16**|**Fusion of Cellular ISAC and Passive RF Sensing for UAV Detection and Tracking**|Cole Dickerson et.al.|[2512.14608](http://arxiv.org/abs/2512.14608)|null|
 |**2025-12-03**|**Experimental Sensitivity Enhancement of a Quantum Rydberg Atom-Based RF Receiver with a Metamaterial GRIN Lens**|Anton Tishchenko et.al.|[2512.04298](http://arxiv.org/abs/2512.04298)|null|
