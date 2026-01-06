@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.01.05
+## Updated on 2026.01.06
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -203,6 +203,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-12-31**|**Noise-Aware and Dynamically Adaptive Federated Defense Framework for SAR Image Target Recognition**|Yuchao Hou et.al.|[2601.00900](http://arxiv.org/abs/2601.00900)|null|
 |**2025-12-17**|**Persistent feature reconstruction of resident space objects (RSOs) within inverse synthetic aperture radar (ISAR) images**|Morgan Coe et.al.|[2512.15618](http://arxiv.org/abs/2512.15618)|null|
 |**2025-12-11**|**Any4D: Unified Feed-Forward Metric 4D Reconstruction**|Jay Karhade et.al.|[2512.10935](http://arxiv.org/abs/2512.10935)|null|
 |**2025-12-09**|**Metasurfaces Enable Active-Like Passive Radar**|Mingyi Li et.al.|[2512.08208](http://arxiv.org/abs/2512.08208)|null|
