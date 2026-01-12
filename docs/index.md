@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.01.11
+## Updated on 2026.01.12
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -108,12 +108,12 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
 |**2025-12-31**|**No Vision, No Wearables: 5G-based 2D Human Pose Recognition with Integrated Sensing and Communications**|Haojin Li et.al.|[2512.24923](http://arxiv.org/abs/2512.24923)|null|
-|**2025-12-19**|**Rydberg Atomic RF Sensor-based Quantum Radar**|Sourav Banerjee et.al.|[2512.17421](http://arxiv.org/abs/2512.17421)|null|
+|**2026-01-09**|**Rydberg Atomic RF Sensor-based Quantum Radar**|Sourav Banerjee et.al.|[2512.17421](http://arxiv.org/abs/2512.17421)|null|
 |**2025-12-16**|**Fusion of Cellular ISAC and Passive RF Sensing for UAV Detection and Tracking**|Cole Dickerson et.al.|[2512.14608](http://arxiv.org/abs/2512.14608)|null|
 |**2025-12-03**|**Experimental Sensitivity Enhancement of a Quantum Rydberg Atom-Based RF Receiver with a Metamaterial GRIN Lens**|Anton Tishchenko et.al.|[2512.04298](http://arxiv.org/abs/2512.04298)|null|
 |**2025-11-19**|**Ultra-Low Insertion Loss Stepped Impedance Resonator Topology for HTSC RF Front-End**|Ilan Kurtser et.al.|[2511.14447](http://arxiv.org/abs/2511.14447)|null|
 |**2025-11-03**|**Clutter Suppression in Bistatic ISAC with Joint Angle and Doppler Estimation**|M. Ertug Pihtili et.al.|[2511.01599](http://arxiv.org/abs/2511.01599)|null|
-|**2025-10-27**|**Intelligent Multimodal Multi-Sensor Fusion-Based UAV Identification, Localization, and Countermeasures for Safeguarding Low-Altitude Economy**|Yi Tao et.al.|[2510.22947](http://arxiv.org/abs/2510.22947)|null|
+|**2026-01-09**|**Intelligent Multimodal Multi-Sensor Fusion-Based UAV Identification, Localization, and Countermeasures for Safeguarding Low-Altitude Economy**|Yi Tao et.al.|[2510.22947](http://arxiv.org/abs/2510.22947)|null|
 |**2025-10-25**|**Experimental Demonstration of Multi-Object Tracking in Integrated Sensing and Communication**|Maximilian Bauhofer et.al.|[2510.22180](http://arxiv.org/abs/2510.22180)|null|
 |**2025-10-15**|**Constellation Design in OFDM-ISAC over Data Payloads: From MSE Analysis to Experimentation**|Kawon Han et.al.|[2510.13101](http://arxiv.org/abs/2510.13101)|null|
 |**2025-10-27**|**Passive Microwave Tag Classification Using RF Fingerprinting and Machine Learning**|Cory Hilton et.al.|[2510.12930](http://arxiv.org/abs/2510.12930)|null|
@@ -209,7 +209,7 @@ layout: default
 |**2025-12-09**|**Metasurfaces Enable Active-Like Passive Radar**|Mingyi Li et.al.|[2512.08208](http://arxiv.org/abs/2512.08208)|null|
 |**2025-11-26**|**Wavelet-Guided Water-Level Estimation for ISAC**|Ayoob Salari et.al.|[2511.20936](http://arxiv.org/abs/2511.20936)|null|
 |**2025-11-12**|**RadHARSimulator V2: Video to Doppler Generator**|Weicheng Gao et.al.|[2511.09022](http://arxiv.org/abs/2511.09022)|null|
-|**2025-10-27**|**Intelligent Multimodal Multi-Sensor Fusion-Based UAV Identification, Localization, and Countermeasures for Safeguarding Low-Altitude Economy**|Yi Tao et.al.|[2510.22947](http://arxiv.org/abs/2510.22947)|null|
+|**2026-01-09**|**Intelligent Multimodal Multi-Sensor Fusion-Based UAV Identification, Localization, and Countermeasures for Safeguarding Low-Altitude Economy**|Yi Tao et.al.|[2510.22947](http://arxiv.org/abs/2510.22947)|null|
 |**2025-11-27**|**Q-Net: Queue Length Estimation via Kalman-based Neural Networks**|Ting Gao et.al.|[2509.24725](http://arxiv.org/abs/2509.24725)|null|
 |**2025-08-07**|**Deep Learning Based Dynamic Environment Reconstruction for Vehicular ISAC Scenarios**|Junzhe Song et.al.|[2508.05226](http://arxiv.org/abs/2508.05226)|null|
 |**2025-07-18**|**Device-Free Localization Using Commercial UWB Transceivers**|Hyun Seok Lee et.al.|[2507.13938](http://arxiv.org/abs/2507.13938)|null|
@@ -412,7 +412,7 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
 |**2025-12-19**|**Distributed Multisensor ISAC**|Reiner Thomä et.al.|[2511.13104](http://arxiv.org/abs/2511.13104)|null|
-|**2025-10-27**|**Intelligent Multimodal Multi-Sensor Fusion-Based UAV Identification, Localization, and Countermeasures for Safeguarding Low-Altitude Economy**|Yi Tao et.al.|[2510.22947](http://arxiv.org/abs/2510.22947)|null|
+|**2026-01-09**|**Intelligent Multimodal Multi-Sensor Fusion-Based UAV Identification, Localization, and Countermeasures for Safeguarding Low-Altitude Economy**|Yi Tao et.al.|[2510.22947](http://arxiv.org/abs/2510.22947)|null|
 |**2025-09-29**|**Infrastructure Sensor-enabled Vehicle Data Generation using Multi-Sensor Fusion for Proactive Safety Applications at Work Zone**|Suhala Rabab Saba et.al.|[2509.25452](http://arxiv.org/abs/2509.25452)|null|
 |**2025-09-03**|**Multi-Sensor Fusion for Extended Object Tracking Exploiting Active and Passive Radio Signals**|Hong Zhu et.al.|[2509.03686](http://arxiv.org/abs/2509.03686)|null|
 |**2025-07-31**|**A Unified Perception-Language-Action Framework for Adaptive Autonomous Driving**|Yi Zhang et.al.|[2507.23540](http://arxiv.org/abs/2507.23540)|null|
