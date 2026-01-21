@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.01.20
+## Updated on 2026.01.21
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -298,6 +298,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-01-17**|**Radar-Based Fall Detection for Assisted Living: A Digital-Twin Representation Case Study**|Sebastian Ratto et.al.|[2601.11938](http://arxiv.org/abs/2601.11938)|null|
+|**2026-01-17**|**Indoor Occupancy Classification using a Compact Hybrid Quantum-Classical Model Enabled by a Physics-Informed Radar Digital Twin**|Sebastian Ratto et.al.|[2601.11929](http://arxiv.org/abs/2601.11929)|null|
 |**2025-12-19**|**FOODER: Real-time Facial Authentication and Expression Recognition**|Sabri Mustafa Kahya et.al.|[2512.18057](http://arxiv.org/abs/2512.18057)|null|
 |**2025-12-09**|**A New Particle Filter for Target Tracking in MIMO OFDM Integrated Sensing and Communications**|Shixiong Wang et.al.|[2512.09098](http://arxiv.org/abs/2512.09098)|null|
 |**2025-11-29**|**Vision Transformer for Classification of UAV and Helicopters Using Micro-Doppler Spectrograms in Surveillance Radar**|Arkadiusz Czuba et.al.|[2512.00374](http://arxiv.org/abs/2512.00374)|null|
