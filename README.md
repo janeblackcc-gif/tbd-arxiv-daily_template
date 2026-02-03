@@ -1,4 +1,4 @@
-## Updated on 2026.02.02
+## Updated on 2026.02.03
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -73,7 +73,7 @@
 |**2023-11-15**|**Environment-independent mmWave Fall Detection with Interacting Multiple Model**|Xuyao Yu et.al.|[2311.08755](http://arxiv.org/abs/2311.08755)|null|
 |**2023-10-13**|**Multi-Sensor Multi-Scan Radar Sensing of Multiple Extended Targets**|Martin V. Vejling et.al.|[2310.09011](http://arxiv.org/abs/2310.09011)|null|
 
-<p align=right>(<a href=#updated-on-20260202>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260203>back to top</a>)</p>
 
 ## Data Association (JPDA / MHT / PDA)
 
@@ -118,7 +118,7 @@
 |**2017-03-24**|**Improved NN-JPDAF for Joint Multiple Target Tracking and Feature Extraction**|Le Zheng et.al.|[1703.08254](http://arxiv.org/abs/1703.08254)|null|
 |**2016-05-07**|**All Weather Perception: Joint Data Association, Tracking, and Classification for Autonomous Ground Vehicles**|Peter Radecki et.al.|[1605.02196](http://arxiv.org/abs/1605.02196)|null|
 
-<p align=right>(<a href=#updated-on-20260202>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260203>back to top</a>)</p>
 
 ## RFS / FISST (PHD / CPHD / GLMB / PMBM)
 
@@ -176,7 +176,7 @@
 |**2024-05-18**|**LiDAR Point Cloud-based Multiple Vehicle Tracking with Probabilistic Measurement-Region Association**|Guanhua Ding et.al.|[2403.06423](http://arxiv.org/abs/2403.06423)|null|
 |**2024-02-26**|**Sounding-Based Evaluation of Multi-Sensor ISAC Networks for Drone Applications: Measurement and Simulation Perspectives**|Julia Beuster et.al.|[2402.16591](http://arxiv.org/abs/2402.16591)|null|
 
-<p align=right>(<a href=#updated-on-20260202>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260203>back to top</a>)</p>
 
 ## Track-Before-Detect (TBD)
 
@@ -196,7 +196,7 @@
 |**2020-07-09**|**A Track-Before-Detect Approach to Multi-Target Tracking on Automotive Radar Sensor Data**|David Meister et.al.|[2006.02755](http://arxiv.org/abs/2006.02755)|null|
 |**2025-07-03**|**Coherent Track Before Detect: Detection via simultaneous trajectory estimation and long time integration**|Kimin Kim et.al.|[1709.00310](http://arxiv.org/abs/1709.00310)|null|
 
-<p align=right>(<a href=#updated-on-20260202>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260203>back to top</a>)</p>
 
 ## Extended / Group / Cluster Targets
 
@@ -214,7 +214,7 @@
 |**2021-05-24**|**Real-time People Tracking and Identification from Sparse mm-Wave Radar Point-clouds**|Jacopo Pegoraro et.al.|[2105.11368](http://arxiv.org/abs/2105.11368)|null|
 |**2017-02-21**|**Extended Object Tracking: Introduction, Overview and Applications**|Karl Granstrom et.al.|[1604.00970](http://arxiv.org/abs/1604.00970)|null|
 
-<p align=right>(<a href=#updated-on-20260202>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260203>back to top</a>)</p>
 
 ## Ballistic / Missile / Re-entry Tracking
 
@@ -222,7 +222,7 @@
 |---|---|---|---|---|
 |**2024-10-14**|**Online waveform selection for cognitive radar**|Thulasi Tholeti et.al.|[2410.10591](http://arxiv.org/abs/2410.10591)|null|
 
-<p align=right>(<a href=#updated-on-20260202>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260203>back to top</a>)</p>
 
 ## Deep Learning for Radar Detection & Tracking
 
@@ -280,7 +280,7 @@
 |**2023-09-02**|**Robust Joint Active-Passive Beamforming Design for IRS-Assisted ISAC Systems**|Mahmoud AlaaEldin et.al.|[2309.00978](http://arxiv.org/abs/2309.00978)|null|
 |**2023-08-17**|**Data-driven Integrated Sensing and Communication: Recent Advances, Challenges, and Future Prospects**|Hammam Salem et.al.|[2308.09090](http://arxiv.org/abs/2308.09090)|null|
 
-<p align=right>(<a href=#updated-on-20260202>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260203>back to top</a>)</p>
 
 ## Radar Point Cloud Tracking (mmWave / automotive)
 
@@ -322,7 +322,7 @@
 |**2019-11-14**|**Multiple Patients Behavior Detection in Real-time using mmWave Radar and Deep CNNs**|Feng Jin et.al.|[1911.06363](http://arxiv.org/abs/1911.06363)|null|
 |**2019-08-19**|**Demonstration of 3D ISAR Security Imaging at 24GHz with a Sparse MIMO Array**|Zhanyu Zhu et.al.|[1908.06619](http://arxiv.org/abs/1908.06619)|null|
 
-<p align=right>(<a href=#updated-on-20260202>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260203>back to top</a>)</p>
 
 ## Range-Doppler / Micro-Doppler (learning-based)
 
@@ -384,7 +384,7 @@
 |**2023-04-08**|**Neural Network-Based Multi-Target Detection within Correlated Heavy-Tailed Clutter**|Stefan Feintuch et.al.|[2210.12042](http://arxiv.org/abs/2210.12042)|null|
 |**2022-08-30**|**Micro-Vibration Modes Reconstruction Based on Micro-Doppler Coincidence Imaging**|Shuang Liu et.al.|[2208.13952](http://arxiv.org/abs/2208.13952)|null|
 
-<p align=right>(<a href=#updated-on-20260202>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260203>back to top</a>)</p>
 
 ## ISAC / JCAS / RadCom Tracking
 
@@ -443,7 +443,7 @@
 |**2025-06-19**|**Refining Ray-Tracing Accuracy and Efficiency in the Context of FRMCS Urban Railway Channel Predictions**|Romain Charbonnier et.al.|[2506.16236](http://arxiv.org/abs/2506.16236)|null|
 |**2025-06-08**|**Near-Field Integrated Sensing and Communication for Multi-Target Indication**|Hang Ruan et.al.|[2506.07052](http://arxiv.org/abs/2506.07052)|null|
 
-<p align=right>(<a href=#updated-on-20260202>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260203>back to top</a>)</p>
 
 ## Radar Sensor Fusion Tracking (optional)
 
@@ -479,7 +479,7 @@
 |**2016-03-21**|**Distributed Multi-Sensor Fusion Using Generalized Multi-Bernoulli Densities**|Meng Jiang et.al.|[1603.06349](http://arxiv.org/abs/1603.06349)|null|
 |**2016-03-09**|**Multisensor--Multitarget Bearing--Only Sensor Registration**|Ehsan Taghavi et.al.|[1603.03450](http://arxiv.org/abs/1603.03450)|null|
 
-<p align=right>(<a href=#updated-on-20260202>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260203>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
