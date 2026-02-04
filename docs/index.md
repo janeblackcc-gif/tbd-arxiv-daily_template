@@ -2,13 +2,15 @@
 layout: default
 ---
 
-## Updated on 2026.02.03
+## Updated on 2026.02.04
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-03**|**Multipath Extended Target Tracking with Labeled Random Finite Sets**|Guanhua Ding et.al.|[2602.03464](http://arxiv.org/abs/2602.03464)|null|
+|**2026-02-02**|**A Track-Before-Detect Trajectory Multi-Bernoulli Filter for Generalised Superpositional Measurements**|Sion Lynch et.al.|[2602.02365](http://arxiv.org/abs/2602.02365)|null|
 |**2025-12-16**|**Fusion of Cellular ISAC and Passive RF Sensing for UAV Detection and Tracking**|Cole Dickerson et.al.|[2512.14608](http://arxiv.org/abs/2512.14608)|null|
 |**2025-12-20**|**Chirp Delay-Doppler Domain Modulation Based Joint Communication and Radar for Autonomous Vehicles**|Zhuoran Li et.al.|[2512.14432](http://arxiv.org/abs/2512.14432)|null|
 |**2025-12-16**|**Quadratic Kalman Filter for Elliptical Extended Object Tracking based on Decoupling State Components**|Simon Steuernagel et.al.|[2512.14426](http://arxiv.org/abs/2512.14426)|null|
@@ -107,6 +109,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-03**|**Multipath Extended Target Tracking with Labeled Random Finite Sets**|Guanhua Ding et.al.|[2602.03464](http://arxiv.org/abs/2602.03464)|null|
+|**2026-02-02**|**A Track-Before-Detect Trajectory Multi-Bernoulli Filter for Generalised Superpositional Measurements**|Sion Lynch et.al.|[2602.02365](http://arxiv.org/abs/2602.02365)|null|
 |**2025-12-31**|**No Vision, No Wearables: 5G-based 2D Human Pose Recognition with Integrated Sensing and Communications**|Haojin Li et.al.|[2512.24923](http://arxiv.org/abs/2512.24923)|null|
 |**2026-01-09**|**Rydberg Atomic RF Sensor-based Quantum Radar**|Sourav Banerjee et.al.|[2512.17421](http://arxiv.org/abs/2512.17421)|null|
 |**2025-12-16**|**Fusion of Cellular ISAC and Passive RF Sensing for UAV Detection and Tracking**|Cole Dickerson et.al.|[2512.14608](http://arxiv.org/abs/2512.14608)|null|
@@ -163,6 +167,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-02**|**A Track-Before-Detect Trajectory Multi-Bernoulli Filter for Generalised Superpositional Measurements**|Sion Lynch et.al.|[2602.02365](http://arxiv.org/abs/2602.02365)|null|
 |**2025-09-08**|**Integrated Detection and Tracking Based on Radar Range-Doppler Feature**|Chenyu Zhang et.al.|[2509.06569](http://arxiv.org/abs/2509.06569)|null|
 |**2025-08-22**|**A Scalable Hybrid Track-Before-Detect Tracking System: Application to Coastal Maritime Radar Surveillance**|Lukas Herrmann et.al.|[2508.16169](http://arxiv.org/abs/2508.16169)|null|
 |**2025-07-03**|**Track-before-detect in RIS-aided Integrated Sensing and Communication**|Georgios Mylonopoulos et.al.|[2507.02352](http://arxiv.org/abs/2507.02352)|null|
@@ -181,6 +186,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-03**|**Multipath Extended Target Tracking with Labeled Random Finite Sets**|Guanhua Ding et.al.|[2602.03464](http://arxiv.org/abs/2602.03464)|null|
 |**2025-12-16**|**Quadratic Kalman Filter for Elliptical Extended Object Tracking based on Decoupling State Components**|Simon Steuernagel et.al.|[2512.14426](http://arxiv.org/abs/2512.14426)|null|
 |**2025-09-03**|**Multi-Sensor Fusion for Extended Object Tracking Exploiting Active and Passive Radio Signals**|Hong Zhu et.al.|[2509.03686](http://arxiv.org/abs/2509.03686)|null|
 |**2025-08-13**|**Offline Auto Labeling: BAAS**|Stefan Haag et.al.|[2508.09585](http://arxiv.org/abs/2508.09585)|null|
