@@ -2,13 +2,14 @@
 layout: default
 ---
 
-## Updated on 2026.02.08
+## Updated on 2026.02.09
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-06**|**Multi-Functional RIS-enabled Radar and Communication Coexistence: Channel Modeling and a Sub-6 GHz Indoor Measurement Campaign**|Anton Tishchenko et.al.|[2602.06755](http://arxiv.org/abs/2602.06755)|null|
 |**2026-02-03**|**Multipath Extended Target Tracking with Labeled Random Finite Sets**|Guanhua Ding et.al.|[2602.03464](http://arxiv.org/abs/2602.03464)|null|
 |**2026-02-02**|**A Track-Before-Detect Trajectory Multi-Bernoulli Filter for Generalised Superpositional Measurements**|Sion Lynch et.al.|[2602.02365](http://arxiv.org/abs/2602.02365)|null|
 |**2025-12-16**|**Fusion of Cellular ISAC and Passive RF Sensing for UAV Detection and Tracking**|Cole Dickerson et.al.|[2512.14608](http://arxiv.org/abs/2512.14608)|null|
@@ -114,7 +115,7 @@ layout: default
 |**2025-12-31**|**No Vision, No Wearables: 5G-based 2D Human Pose Recognition with Integrated Sensing and Communications**|Haojin Li et.al.|[2512.24923](http://arxiv.org/abs/2512.24923)|null|
 |**2026-01-09**|**Rydberg Atomic RF Sensor-based Quantum Radar**|Sourav Banerjee et.al.|[2512.17421](http://arxiv.org/abs/2512.17421)|null|
 |**2025-12-16**|**Fusion of Cellular ISAC and Passive RF Sensing for UAV Detection and Tracking**|Cole Dickerson et.al.|[2512.14608](http://arxiv.org/abs/2512.14608)|null|
-|**2025-12-03**|**Experimental Sensitivity Enhancement of a Quantum Rydberg Atom-Based RF Receiver with a Metamaterial GRIN Lens**|Anton Tishchenko et.al.|[2512.04298](http://arxiv.org/abs/2512.04298)|null|
+|**2026-02-06**|**Experimental Sensitivity Enhancement of a Quantum Rydberg Atom-Based RF Receiver with a Metamaterial GRIN Lens**|Anton Tishchenko et.al.|[2512.04298](http://arxiv.org/abs/2512.04298)|null|
 |**2025-11-19**|**Ultra-Low Insertion Loss Stepped Impedance Resonator Topology for HTSC RF Front-End**|Ilan Kurtser et.al.|[2511.14447](http://arxiv.org/abs/2511.14447)|null|
 |**2025-11-03**|**Clutter Suppression in Bistatic ISAC with Joint Angle and Doppler Estimation**|M. Ertug Pihtili et.al.|[2511.01599](http://arxiv.org/abs/2511.01599)|null|
 |**2026-01-09**|**Intelligent Multimodal Multi-Sensor Fusion-Based UAV Identification, Localization, and Countermeasures for Safeguarding Low-Altitude Economy**|Yi Tao et.al.|[2510.22947](http://arxiv.org/abs/2510.22947)|null|
@@ -365,6 +366,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-06**|**ARIS-RSMA Enhanced ISAC System: Joint Rate Splitting and Beamforming Design**|Xin Jin et.al.|[2602.06399](http://arxiv.org/abs/2602.06399)|null|
 |**2025-12-26**|**Phase-Coherent D-MIMO ISAC: Multi-Target Estimation and Spectral Efficiency Trade-Offs**|Venkatesh Tentu et.al.|[2512.21953](http://arxiv.org/abs/2512.21953)|null|
 |**2025-12-24**|**Reconfigurable Intelligent Surface-Enhanced Satellite Networks: Deployment Strategies, Key Capabilities, Practical Solutions, and Future Directions**|Ziyuan Zheng et.al.|[2512.20982](http://arxiv.org/abs/2512.20982)|null|
 |**2025-12-16**|**Fusion of Cellular ISAC and Passive RF Sensing for UAV Detection and Tracking**|Cole Dickerson et.al.|[2512.14608](http://arxiv.org/abs/2512.14608)|null|
