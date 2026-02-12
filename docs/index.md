@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.02.09
+## Updated on 2026.02.12
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -38,7 +38,7 @@ layout: default
 |**2025-06-25**|**Transformer Based Multi-Target Bernoulli Tracking for Maritime Radar**|Caden Sweeney et.al.|[2506.20319](http://arxiv.org/abs/2506.20319)|null|
 |**2025-06-08**|**Near-Field Integrated Sensing and Communication for Multi-Target Indication**|Hang Ruan et.al.|[2506.07052](http://arxiv.org/abs/2506.07052)|null|
 |**2025-05-21**|**Benchmarking CFAR and CNN-based Peak Detection Algorithms in ISAC under Hardware Impairments**|Paolo Tosi et.al.|[2505.10969](http://arxiv.org/abs/2505.10969)|null|
-|**2025-07-09**|**CFARNet: Learning-Based High-Resolution Multi-Target Detection for Rainbow Beam Radar**|Qiushi Liang et.al.|[2505.10150](http://arxiv.org/abs/2505.10150)|null|
+|**2026-02-09**|**CFARNet: Learning-Based High-Resolution Multi-Target Detection for Rainbow Beam Radar**|Qiushi Liang et.al.|[2505.10150](http://arxiv.org/abs/2505.10150)|null|
 |**2025-04-01**|**Deep Learning-Based Extended Target Tracking in ISAC Systems**|Yiqiu Wang et.al.|[2504.00576](http://arxiv.org/abs/2504.00576)|null|
 |**2025-03-19**|**Variational Message Passing-based Multiobject Tracking for MIMO-Radars using Raw Sensor Signals**|Anders Malthe Westerkam et.al.|[2503.15246](http://arxiv.org/abs/2503.15246)|null|
 |**2025-05-30**|**Joint Location and Velocity Estimation and Fundamental CRLB Analysis for Cell-Free MIMO-ISAC**|Guoqing Xia et.al.|[2503.06766](http://arxiv.org/abs/2503.06766)|null|
@@ -67,6 +67,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-09**|**RFSoC-Based Integrated Navigation and Sensing Using NavIC**|Riya Sachdeva et.al.|[2602.08596](http://arxiv.org/abs/2602.08596)|null|
 |**2025-12-01**|**Multimodal Mixture-of-Experts for ISAC in Low-Altitude Wireless Networks**|Kai Zhang et.al.|[2512.01750](http://arxiv.org/abs/2512.01750)|null|
 |**2025-11-26**|**SAFE-IMM: Robust and Lightweight Radar-Based Object Tracking on Mobile Platforms**|Dnyandeep Mandaokar et.al.|[2511.20294](http://arxiv.org/abs/2511.20294)|null|
 |**2025-11-12**|**OG-PCL: Efficient Sparse Point Cloud Processing for Human Activity Recognition**|Jiuqi Yan et.al.|[2511.08910](http://arxiv.org/abs/2511.08910)|null|
@@ -226,7 +227,7 @@ layout: default
 |**2025-06-25**|**Transformer Based Multi-Target Bernoulli Tracking for Maritime Radar**|Caden Sweeney et.al.|[2506.20319](http://arxiv.org/abs/2506.20319)|null|
 |**2025-06-09**|**Interpretable Augmented Physics-Based Model for Estimation and Tracking**|Ondřej Straka et.al.|[2505.19953](http://arxiv.org/abs/2505.19953)|null|
 |**2025-05-21**|**Benchmarking CFAR and CNN-based Peak Detection Algorithms in ISAC under Hardware Impairments**|Paolo Tosi et.al.|[2505.10969](http://arxiv.org/abs/2505.10969)|null|
-|**2025-07-09**|**CFARNet: Learning-Based High-Resolution Multi-Target Detection for Rainbow Beam Radar**|Qiushi Liang et.al.|[2505.10150](http://arxiv.org/abs/2505.10150)|null|
+|**2026-02-09**|**CFARNet: Learning-Based High-Resolution Multi-Target Detection for Rainbow Beam Radar**|Qiushi Liang et.al.|[2505.10150](http://arxiv.org/abs/2505.10150)|null|
 |**2025-05-01**|**Synthesizing and Identifying Noise Levels in Autonomous Vehicle Camera Radar Datasets**|Mathis Morales et.al.|[2505.00584](http://arxiv.org/abs/2505.00584)|null|
 |**2025-04-01**|**Deep Learning-Based Extended Target Tracking in ISAC Systems**|Yiqiu Wang et.al.|[2504.00576](http://arxiv.org/abs/2504.00576)|null|
 |**2025-07-02**|**KAN-powered large-target detection for automotive radar**|Vinay Kulkarni et.al.|[2502.19000](http://arxiv.org/abs/2502.19000)|null|
@@ -366,6 +367,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-09**|**IEEE 802.11ad-Aided 5-D Sensing with a UAV Swarm in Urban Environment**|Akanksha Sneh et.al.|[2602.08396](http://arxiv.org/abs/2602.08396)|null|
 |**2026-02-06**|**ARIS-RSMA Enhanced ISAC System: Joint Rate Splitting and Beamforming Design**|Xin Jin et.al.|[2602.06399](http://arxiv.org/abs/2602.06399)|null|
 |**2025-12-26**|**Phase-Coherent D-MIMO ISAC: Multi-Target Estimation and Spectral Efficiency Trade-Offs**|Venkatesh Tentu et.al.|[2512.21953](http://arxiv.org/abs/2512.21953)|null|
 |**2025-12-24**|**Reconfigurable Intelligent Surface-Enhanced Satellite Networks: Deployment Strategies, Key Capabilities, Practical Solutions, and Future Directions**|Ziyuan Zheng et.al.|[2512.20982](http://arxiv.org/abs/2512.20982)|null|
