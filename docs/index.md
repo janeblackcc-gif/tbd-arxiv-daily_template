@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.02.12
+## Updated on 2026.02.13
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -17,7 +17,7 @@ layout: default
 |**2025-12-16**|**Quadratic Kalman Filter for Elliptical Extended Object Tracking based on Decoupling State Components**|Simon Steuernagel et.al.|[2512.14426](http://arxiv.org/abs/2512.14426)|null|
 |**2025-12-09**|**A New Particle Filter for Target Tracking in MIMO OFDM Integrated Sensing and Communications**|Shixiong Wang et.al.|[2512.09098](http://arxiv.org/abs/2512.09098)|null|
 |**2025-12-05**|**Radar Network Waveform Design for Target Tracking**|Tao Fan et.al.|[2512.05757](http://arxiv.org/abs/2512.05757)|null|
-|**2025-11-26**|**SAFE-IMM: Robust and Lightweight Radar-Based Object Tracking on Mobile Platforms**|Dnyandeep Mandaokar et.al.|[2511.20294](http://arxiv.org/abs/2511.20294)|null|
+|**2026-02-12**|**SAFE-IMM: Robust and Lightweight Radar-Based Object Tracking on Mobile Platforms**|Dnyandeep Mandaokar et.al.|[2511.20294](http://arxiv.org/abs/2511.20294)|null|
 |**2025-11-12**|**RadHARSimulator V2: Video to Doppler Generator**|Weicheng Gao et.al.|[2511.09022](http://arxiv.org/abs/2511.09022)|null|
 |**2025-10-22**|**Micro-Doppler Energy-Based Robust Multi-Target Vital Signs Monitoring Using 77-GHz FMCW Radar with Spatiotemporal Adaptive Processing**|Chenxing Tan et.al.|[2510.19639](http://arxiv.org/abs/2510.19639)|null|
 |**2025-10-17**|**Multi-Target Flexible Angular Emulation for ISAC Base Station Testing Using a Conductive Amplitude and Phase Matrix Setup: Framework and Experimental Validation**|Chunhui Li et.al.|[2510.15457](http://arxiv.org/abs/2510.15457)|null|
@@ -69,7 +69,7 @@ layout: default
 |:---------|:-----------------------|:---------|:------|:------|
 |**2026-02-09**|**RFSoC-Based Integrated Navigation and Sensing Using NavIC**|Riya Sachdeva et.al.|[2602.08596](http://arxiv.org/abs/2602.08596)|null|
 |**2025-12-01**|**Multimodal Mixture-of-Experts for ISAC in Low-Altitude Wireless Networks**|Kai Zhang et.al.|[2512.01750](http://arxiv.org/abs/2512.01750)|null|
-|**2025-11-26**|**SAFE-IMM: Robust and Lightweight Radar-Based Object Tracking on Mobile Platforms**|Dnyandeep Mandaokar et.al.|[2511.20294](http://arxiv.org/abs/2511.20294)|null|
+|**2026-02-12**|**SAFE-IMM: Robust and Lightweight Radar-Based Object Tracking on Mobile Platforms**|Dnyandeep Mandaokar et.al.|[2511.20294](http://arxiv.org/abs/2511.20294)|null|
 |**2025-11-12**|**OG-PCL: Efficient Sparse Point Cloud Processing for Human Activity Recognition**|Jiuqi Yan et.al.|[2511.08910](http://arxiv.org/abs/2511.08910)|null|
 |**2025-10-26**|**Neural-HAR: A Dimension-Gated CNN Accelerator for Real-Time Radar Human Activity Recognition**|Yizhuo Wu et.al.|[2510.22772](http://arxiv.org/abs/2510.22772)|null|
 |**2025-09-29**|**A Graph-based Hybrid Beamforming Framework for MIMO Cell-Free ISAC Networks**|Yanan Du et.al.|[2509.25385](http://arxiv.org/abs/2509.25385)|null|
@@ -307,6 +307,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-12**|**Around-the-corner Radar Sensing Using Reconfigurable Intelligent Surface**|Kainat Yasmeen et.al.|[2602.11471](http://arxiv.org/abs/2602.11471)|null|
 |**2026-01-25**|**A Physics-Informed Digital Twin Framework for Calibrated Sim-to-Real FMCW Radar Occupancy Estimation**|Huy Trinh et.al.|[2601.17871](http://arxiv.org/abs/2601.17871)|null|
 |**2026-01-25**|**Doppler-Domain Respiratory Amplification for Semi-Static Human Occupancy Detection Using Low-Resolution SIMO FMCW Radar**|Huy Trinh et.al.|[2601.17721](http://arxiv.org/abs/2601.17721)|null|
 |**2026-01-17**|**Radar-Based Fall Detection for Assisted Living: A Digital-Twin Representation Case Study**|Sebastian Ratto et.al.|[2601.11938](http://arxiv.org/abs/2601.11938)|null|
