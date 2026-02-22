@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.02.19
+## Updated on 2026.02.22
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -368,6 +368,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-19**|**Device-Centric ISAC for Exposure Control via Opportunistic Virtual Aperture Sensing**|Marouan Mizmizi et.al.|[2602.17609](http://arxiv.org/abs/2602.17609)|null|
 |**2026-02-17**|**Tracking Time-Varying Multipath Channels forActive Sonar Applications**|Ashwani Koul et.al.|[2602.15555](http://arxiv.org/abs/2602.15555)|null|
 |**2026-02-09**|**IEEE 802.11ad-Aided 5-D Sensing with a UAV Swarm in Urban Environment**|Akanksha Sneh et.al.|[2602.08396](http://arxiv.org/abs/2602.08396)|null|
 |**2026-02-06**|**ARIS-RSMA Enhanced ISAC System: Joint Rate Splitting and Beamforming Design**|Xin Jin et.al.|[2602.06399](http://arxiv.org/abs/2602.06399)|null|
