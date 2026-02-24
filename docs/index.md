@@ -2,13 +2,14 @@
 layout: default
 ---
 
-## Updated on 2026.02.23
+## Updated on 2026.02.24
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-23**|**Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning**|Umut Utku Erdem et.al.|[2602.19877](http://arxiv.org/abs/2602.19877)|null|
 |**2026-02-06**|**Multi-Functional RIS-enabled Radar and Communication Coexistence: Channel Modeling and a Sub-6 GHz Indoor Measurement Campaign**|Anton Tishchenko et.al.|[2602.06755](http://arxiv.org/abs/2602.06755)|null|
 |**2026-02-03**|**Multipath Extended Target Tracking with Labeled Random Finite Sets**|Guanhua Ding et.al.|[2602.03464](http://arxiv.org/abs/2602.03464)|null|
 |**2026-02-02**|**A Track-Before-Detect Trajectory Multi-Bernoulli Filter for Generalised Superpositional Measurements**|Sion Lynch et.al.|[2602.02365](http://arxiv.org/abs/2602.02365)|null|
@@ -211,6 +212,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-23**|**Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning**|Umut Utku Erdem et.al.|[2602.19877](http://arxiv.org/abs/2602.19877)|null|
 |**2025-12-31**|**Noise-Aware and Dynamically Adaptive Federated Defense Framework for SAR Image Target Recognition**|Yuchao Hou et.al.|[2601.00900](http://arxiv.org/abs/2601.00900)|null|
 |**2025-12-17**|**Persistent feature reconstruction of resident space objects (RSOs) within inverse synthetic aperture radar (ISAR) images**|Morgan Coe et.al.|[2512.15618](http://arxiv.org/abs/2512.15618)|null|
 |**2025-12-11**|**Any4D: Unified Feed-Forward Metric 4D Reconstruction**|Jay Karhade et.al.|[2512.10935](http://arxiv.org/abs/2512.10935)|null|
@@ -368,6 +370,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-23**|**Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning**|Umut Utku Erdem et.al.|[2602.19877](http://arxiv.org/abs/2602.19877)|null|
 |**2026-02-20**|**m^3TrackFormer: Transformer-based mmWave Multi-Target Tracking with Lost Target Re-Acquisition Capability**|Tongkai Li et.al.|[2602.18254](http://arxiv.org/abs/2602.18254)|null|
 |**2026-02-20**|**Joint Multi-User Tracking and Signal Detection in Reconfigurable Intelligent Surface-Assisted Cell-Free ISAC Systems**|Weifeng Zhu et.al.|[2602.18018](http://arxiv.org/abs/2602.18018)|null|
 |**2026-02-19**|**Device-Centric ISAC for Exposure Control via Opportunistic Virtual Aperture Sensing**|Marouan Mizmizi et.al.|[2602.17609](http://arxiv.org/abs/2602.17609)|null|
