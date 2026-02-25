@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.02.24
+## Updated on 2026.02.25
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -385,7 +385,7 @@ layout: default
 |**2025-12-08**|**A Structured Review of Fixed and Multimodal Sensing Techniques for Bat Monitoring**|Maatla Sefawe et.al.|[2512.07153](http://arxiv.org/abs/2512.07153)|null|
 |**2025-12-01**|**Retroreflective Optical ISAC for 6G: Technologies, Applications and Future Directions**|Tiantian Chu et.al.|[2512.01275](http://arxiv.org/abs/2512.01275)|null|
 |**2025-11-27**|**Adaptive Dual-Windowing Strategies for Multi-Target Detection in OFDM ISAC**|Ali Al Khansa et.al.|[2511.22458](http://arxiv.org/abs/2511.22458)|null|
-|**2025-11-27**|**Bistatic Passive Tracking via CSI Power**|Zhongqin Wang et.al.|[2511.22144](http://arxiv.org/abs/2511.22144)|null|
+|**2026-02-24**|**Bistatic Passive Sensing via CSI Power**|Zhongqin Wang et.al.|[2511.22144](http://arxiv.org/abs/2511.22144)|null|
 |**2025-11-26**|**Wavelet-Guided Water-Level Estimation for ISAC**|Ayoob Salari et.al.|[2511.20936](http://arxiv.org/abs/2511.20936)|null|
 |**2025-11-25**|**Optimal Waveform Design for Continuous Aperture Array (CAPA)-aided ISAC Systems**|Junjie Ye et.al.|[2511.20203](http://arxiv.org/abs/2511.20203)|null|
 |**2025-11-26**|**Multi-Hypotheses Ego-Tracking for Resilient Navigation**|Peter Iwer Hoedt Karstensen et.al.|[2511.19770](http://arxiv.org/abs/2511.19770)|null|
