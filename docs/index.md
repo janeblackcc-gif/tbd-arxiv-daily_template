@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.03.04
+## Updated on 2026.03.05
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -370,6 +370,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-04**|**Low-Altitude Agentic Networks for Optical Wireless Communication and Sensing: An Oceanic Scenario**|Tianqi Mao et.al.|[2603.04042](http://arxiv.org/abs/2603.04042)|null|
 |**2026-03-02**|**Goal-Oriented Access Optimization for ISAC-Enabled Digital Twins**|Fabio Saggese et.al.|[2603.01781](http://arxiv.org/abs/2603.01781)|null|
 |**2026-02-23**|**Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning**|Umut Utku Erdem et.al.|[2602.19877](http://arxiv.org/abs/2602.19877)|null|
 |**2026-02-20**|**m^3TrackFormer: Transformer-based mmWave Multi-Target Tracking with Lost Target Re-Acquisition Capability**|Tongkai Li et.al.|[2602.18254](http://arxiv.org/abs/2602.18254)|null|
