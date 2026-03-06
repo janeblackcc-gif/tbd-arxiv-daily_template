@@ -2,13 +2,14 @@
 layout: default
 ---
 
-## Updated on 2026.03.05
+## Updated on 2026.03.06
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-05**|**Label Hijacking in Track Consensus-Based Distributed Multi-Target Tracking**|Helena Calatrava et.al.|[2603.05023](http://arxiv.org/abs/2603.05023)|null|
 |**2026-02-23**|**Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning**|Umut Utku Erdem et.al.|[2602.19877](http://arxiv.org/abs/2602.19877)|null|
 |**2026-02-06**|**Multi-Functional RIS-enabled Radar and Communication Coexistence: Channel Modeling and a Sub-6 GHz Indoor Measurement Campaign**|Anton Tishchenko et.al.|[2602.06755](http://arxiv.org/abs/2602.06755)|null|
 |**2026-02-03**|**Multipath Extended Target Tracking with Labeled Random Finite Sets**|Guanhua Ding et.al.|[2602.03464](http://arxiv.org/abs/2602.03464)|null|
