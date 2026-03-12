@@ -2,13 +2,14 @@
 layout: default
 ---
 
-## Updated on 2026.03.11
+## Updated on 2026.03.12
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-11**|**Flexible Multi-Target Angular Emulation for Over-the-Air Testing of Large-Scale ISAC Base Stations: Principle and Experimental Verification**|Chunhui Li et.al.|[2603.10629](http://arxiv.org/abs/2603.10629)|null|
 |**2026-03-05**|**Label Hijacking in Track Consensus-Based Distributed Multi-Target Tracking**|Helena Calatrava et.al.|[2603.05023](http://arxiv.org/abs/2603.05023)|null|
 |**2026-02-23**|**Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning**|Umut Utku Erdem et.al.|[2602.19877](http://arxiv.org/abs/2602.19877)|null|
 |**2026-02-06**|**Multi-Functional RIS-enabled Radar and Communication Coexistence: Channel Modeling and a Sub-6 GHz Indoor Measurement Campaign**|Anton Tishchenko et.al.|[2602.06755](http://arxiv.org/abs/2602.06755)|null|
@@ -371,6 +372,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-11**|**Flexible Multi-Target Angular Emulation for Over-the-Air Testing of Large-Scale ISAC Base Stations: Principle and Experimental Verification**|Chunhui Li et.al.|[2603.10629](http://arxiv.org/abs/2603.10629)|null|
 |**2026-03-04**|**Low-Altitude Agentic Networks for Optical Wireless Communication and Sensing: An Oceanic Scenario**|Tianqi Mao et.al.|[2603.04042](http://arxiv.org/abs/2603.04042)|null|
 |**2026-03-02**|**Goal-Oriented Access Optimization for ISAC-Enabled Digital Twins**|Fabio Saggese et.al.|[2603.01781](http://arxiv.org/abs/2603.01781)|null|
 |**2026-02-23**|**Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning**|Umut Utku Erdem et.al.|[2602.19877](http://arxiv.org/abs/2602.19877)|null|
