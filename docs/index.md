@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.03.23
+## Updated on 2026.03.24
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -139,6 +139,7 @@ layout: default
 |**2025-07-28**|**UAV-Borne Digital Radar System for Coherent Multistatic SAR Imaging**|Julian Kanz et.al.|[2507.20792](http://arxiv.org/abs/2507.20792)|null|
 |**2025-07-11**|**Exploiting Cognition in ISAR Processing for Spectral Compatibility Applications**|Massimo Rosamilia et.al.|[2507.08423](http://arxiv.org/abs/2507.08423)|null|
 |**2026-01-08**|**Integrated Polarimetric Sensing and Communication with Polarization-Reconfigurable Arrays**|Byunghyun Lee et.al.|[2506.23410](http://arxiv.org/abs/2506.23410)|null|
+|**2026-03-21**|**A Unified Cloud-Edge-Terminal Framework for Multimodal Integrated Sensing and Communication**|Yubo Peng et.al.|[2506.22507](http://arxiv.org/abs/2506.22507)|null|
 |**2025-06-25**|**Transformer Based Multi-Target Bernoulli Tracking for Maritime Radar**|Caden Sweeney et.al.|[2506.20319](http://arxiv.org/abs/2506.20319)|null|
 |**2025-05-01**|**mmSnap: Bayesian One-Shot Fusion in a Self-Calibrated mmWave Radar Network**|Anirban Banik et.al.|[2505.00857](http://arxiv.org/abs/2505.00857)|null|
 |**2025-04-29**|**Sense-then-Charge: Wireless Power Transfer to Unresponsive Devices with Unknown Location**|Amirhossein Azarbahram et.al.|[2504.20580](http://arxiv.org/abs/2504.20580)|null|
