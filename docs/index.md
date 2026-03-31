@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.03.28
+## Updated on 2026.03.31
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -312,6 +312,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-30**|**Radar Cross Section Characterization of Quantized Reconfigurable Intelligent Surfaces**|Kainat Yasmeen et.al.|[2603.27961](http://arxiv.org/abs/2603.27961)|null|
 |**2026-02-12**|**Around-the-corner Radar Sensing Using Reconfigurable Intelligent Surface**|Kainat Yasmeen et.al.|[2602.11471](http://arxiv.org/abs/2602.11471)|null|
 |**2026-01-25**|**A Physics-Informed Digital Twin Framework for Calibrated Sim-to-Real FMCW Radar Occupancy Estimation**|Huy Trinh et.al.|[2601.17871](http://arxiv.org/abs/2601.17871)|null|
 |**2026-01-25**|**Doppler-Domain Respiratory Amplification for Semi-Static Human Occupancy Detection Using Low-Resolution SIMO FMCW Radar**|Huy Trinh et.al.|[2601.17721](http://arxiv.org/abs/2601.17721)|null|
@@ -449,7 +450,7 @@ layout: default
 |**2025-09-03**|**Multi-Sensor Fusion for Extended Object Tracking Exploiting Active and Passive Radio Signals**|Hong Zhu et.al.|[2509.03686](http://arxiv.org/abs/2509.03686)|null|
 |**2025-07-31**|**A Unified Perception-Language-Action Framework for Adaptive Autonomous Driving**|Yi Zhang et.al.|[2507.23540](http://arxiv.org/abs/2507.23540)|null|
 |**2025-05-11**|**VALISENS: A Validated Innovative Multi-Sensor System for Cooperative Automated Driving**|Lei Wan et.al.|[2505.06980](http://arxiv.org/abs/2505.06980)|null|
-|**2025-12-01**|**Securing the Skies: A Comprehensive Survey on Anti-UAV Methods, Benchmarking, and Future Directions**|Yifei Dong et.al.|[2504.11967](http://arxiv.org/abs/2504.11967)|null|
+|**2026-03-29**|**Securing the Skies: A Comprehensive Survey on Anti-UAV Methods, Benchmarking, and Future Directions**|Yifei Dong et.al.|[2504.11967](http://arxiv.org/abs/2504.11967)|null|
 |**2025-02-20**|**Ultra-High-Frequency Harmony: mmWave Radar and Event Camera Orchestrate Accurate Drone Landing**|Haoyang Wang et.al.|[2502.14992](http://arxiv.org/abs/2502.14992)|null|
 |**2024-07-18**|**Boosting Online 3D Multi-Object Tracking through Camera-Radar Cross Check**|Sheng-Yao Kuan et.al.|[2407.13937](http://arxiv.org/abs/2407.13937)|null|
 |**2024-04-26**|**Enhancing Track Management Systems with Vehicle-To-Vehicle Enabled Sensor Fusion**|Thomas Billington et.al.|[2404.17697](http://arxiv.org/abs/2404.17697)|null|
