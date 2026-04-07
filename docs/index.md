@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.04.06
+## Updated on 2026.04.07
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -215,6 +215,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-06**|**Activity Recognition Using mm-Wave Radar and Deep Learning: Prayer Tracker Case Study**|Karim Saifullin et.al.|[2604.04540](http://arxiv.org/abs/2604.04540)|null|
 |**2026-02-23**|**Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning**|Umut Utku Erdem et.al.|[2602.19877](http://arxiv.org/abs/2602.19877)|null|
 |**2025-12-31**|**Noise-Aware and Dynamically Adaptive Federated Defense Framework for SAR Image Target Recognition**|Yuchao Hou et.al.|[2601.00900](http://arxiv.org/abs/2601.00900)|null|
 |**2025-12-17**|**Persistent feature reconstruction of resident space objects (RSOs) within inverse synthetic aperture radar (ISAR) images**|Morgan Coe et.al.|[2512.15618](http://arxiv.org/abs/2512.15618)|null|
@@ -272,6 +273,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-06**|**Activity Recognition Using mm-Wave Radar and Deep Learning: Prayer Tracker Case Study**|Karim Saifullin et.al.|[2604.04540](http://arxiv.org/abs/2604.04540)|null|
 |**2026-01-19**|**Millimeter-Wave Multi-Radar Tracking System Enabled by a Modified GRIN Luneburg Lens for Real-Time Healthcare Monitoring**|Mohammad Omid Bagheri et.al.|[2601.12629](http://arxiv.org/abs/2601.12629)|null|
 |**2025-12-05**|**A Non-Invasive Path to Animal Welfare: Contactless Vital Signs and Activity Monitoring of In-Vivo Rodents Using a mm-Wave FMCW Radar**|Tommaso Polonelli et.al.|[2512.05595](http://arxiv.org/abs/2512.05595)|null|
 |**2025-11-14**|**SynthSoM-Twin: A Multi-Modal Sensing-Communication Digital-Twin Dataset for Sim2Real Transfer via Synesthesia of Machines**|Junlong Chen et.al.|[2511.11503](http://arxiv.org/abs/2511.11503)|null|
