@@ -1,4 +1,4 @@
-## Updated on 2026.04.07
+## Updated on 2026.04.08
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -22,6 +22,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-04-07**|**Near-Field Integrated Sensing, Computing and Semantic Communication in Digital Twin-Assisted Vehicular Networks**|Yinchao Yang et.al.|[2604.05797](http://arxiv.org/abs/2604.05797)|null|
 |**2026-03-11**|**Flexible Multi-Target Angular Emulation for Over-the-Air Testing of Large-Scale ISAC Base Stations: Principle and Experimental Verification**|Chunhui Li et.al.|[2603.10629](http://arxiv.org/abs/2603.10629)|null|
 |**2026-03-05**|**Label Hijacking in Track Consensus-Based Distributed Multi-Target Tracking**|Helena Calatrava et.al.|[2603.05023](http://arxiv.org/abs/2603.05023)|null|
 |**2026-02-23**|**Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning**|Umut Utku Erdem et.al.|[2602.19877](http://arxiv.org/abs/2602.19877)|null|
@@ -35,6 +36,7 @@
 |**2025-12-05**|**Radar Network Waveform Design for Target Tracking**|Tao Fan et.al.|[2512.05757](http://arxiv.org/abs/2512.05757)|null|
 |**2026-02-12**|**SAFE-IMM: Robust and Lightweight Radar-Based Object Tracking on Mobile Platforms**|Dnyandeep Mandaokar et.al.|[2511.20294](http://arxiv.org/abs/2511.20294)|null|
 |**2025-11-12**|**RadHARSimulator V2: Video to Doppler Generator**|Weicheng Gao et.al.|[2511.09022](http://arxiv.org/abs/2511.09022)|null|
+|**2026-04-07**|**Experimental Demonstration of Multi-Target Tracking in Integrated Sensing and Communication**|Maximilian Bauhofer et.al.|[2510.22180](http://arxiv.org/abs/2510.22180)|null|
 |**2025-10-22**|**Micro-Doppler Energy-Based Robust Multi-Target Vital Signs Monitoring Using 77-GHz FMCW Radar with Spatiotemporal Adaptive Processing**|Chenxing Tan et.al.|[2510.19639](http://arxiv.org/abs/2510.19639)|null|
 |**2025-10-17**|**Multi-Target Flexible Angular Emulation for ISAC Base Station Testing Using a Conductive Amplitude and Phase Matrix Setup: Framework and Experimental Validation**|Chunhui Li et.al.|[2510.15457](http://arxiv.org/abs/2510.15457)|null|
 |**2025-10-15**|**Constellation Design in OFDM-ISAC over Data Payloads: From MSE Analysis to Experimentation**|Kawon Han et.al.|[2510.13101](http://arxiv.org/abs/2510.13101)|null|
@@ -79,7 +81,7 @@
 |**2023-11-15**|**Environment-independent mmWave Fall Detection with Interacting Multiple Model**|Xuyao Yu et.al.|[2311.08755](http://arxiv.org/abs/2311.08755)|null|
 |**2023-10-13**|**Multi-Sensor Multi-Scan Radar Sensing of Multiple Extended Targets**|Martin V. Vejling et.al.|[2310.09011](http://arxiv.org/abs/2310.09011)|null|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## Data Association (JPDA / MHT / PDA)
 
@@ -92,7 +94,7 @@
 |**2025-10-26**|**Neural-HAR: A Dimension-Gated CNN Accelerator for Real-Time Radar Human Activity Recognition**|Yizhuo Wu et.al.|[2510.22772](http://arxiv.org/abs/2510.22772)|null|
 |**2025-09-29**|**A Graph-based Hybrid Beamforming Framework for MIMO Cell-Free ISAC Networks**|Yanan Du et.al.|[2509.25385](http://arxiv.org/abs/2509.25385)|null|
 |**2025-09-08**|**Integrated Detection and Tracking Based on Radar Range-Doppler Feature**|Chenyu Zhang et.al.|[2509.06569](http://arxiv.org/abs/2509.06569)|null|
-|**2025-09-03**|**Multi-Sensor Fusion for Extended Object Tracking Exploiting Active and Passive Radio Signals**|Hong Zhu et.al.|[2509.03686](http://arxiv.org/abs/2509.03686)|null|
+|**2026-04-07**|**Multi-Sensor Fusion for Extended Object Tracking Exploiting Active and Passive Radio Signals**|Hong Zhu et.al.|[2509.03686](http://arxiv.org/abs/2509.03686)|null|
 |**2025-07-16**|**Frequency-responsive RCS characteristics and scaling implications for ISAC development**|Saúl Fenollosa et.al.|[2507.12235](http://arxiv.org/abs/2507.12235)|null|
 |**2025-05-05**|**Multimodal Deep Learning-Empowered Beam Prediction in Future THz ISAC Systems**|Kai Zhang et.al.|[2505.02381](http://arxiv.org/abs/2505.02381)|null|
 |**2025-05-02**|**Smart Environmental Monitoring of Marine Pollution using Edge AI**|Mohamed Moursi et.al.|[2504.21759](http://arxiv.org/abs/2504.21759)|null|
@@ -125,7 +127,7 @@
 |**2017-03-24**|**Improved NN-JPDAF for Joint Multiple Target Tracking and Feature Extraction**|Le Zheng et.al.|[1703.08254](http://arxiv.org/abs/1703.08254)|null|
 |**2016-05-07**|**All Weather Perception: Joint Data Association, Tracking, and Classification for Autonomous Ground Vehicles**|Peter Radecki et.al.|[1605.02196](http://arxiv.org/abs/1605.02196)|null|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## RFS / FISST (PHD / CPHD / GLMB / PMBM)
 
@@ -140,7 +142,7 @@
 |**2025-11-19**|**Ultra-Low Insertion Loss Stepped Impedance Resonator Topology for HTSC RF Front-End**|Ilan Kurtser et.al.|[2511.14447](http://arxiv.org/abs/2511.14447)|null|
 |**2025-11-03**|**Clutter Suppression in Bistatic ISAC with Joint Angle and Doppler Estimation**|M. Ertug Pihtili et.al.|[2511.01599](http://arxiv.org/abs/2511.01599)|null|
 |**2026-01-09**|**Intelligent Multimodal Multi-Sensor Fusion-Based UAV Identification, Localization, and Countermeasures for Safeguarding Low-Altitude Economy**|Yi Tao et.al.|[2510.22947](http://arxiv.org/abs/2510.22947)|null|
-|**2025-10-25**|**Experimental Demonstration of Multi-Object Tracking in Integrated Sensing and Communication**|Maximilian Bauhofer et.al.|[2510.22180](http://arxiv.org/abs/2510.22180)|null|
+|**2026-04-07**|**Experimental Demonstration of Multi-Target Tracking in Integrated Sensing and Communication**|Maximilian Bauhofer et.al.|[2510.22180](http://arxiv.org/abs/2510.22180)|null|
 |**2025-10-15**|**Constellation Design in OFDM-ISAC over Data Payloads: From MSE Analysis to Experimentation**|Kawon Han et.al.|[2510.13101](http://arxiv.org/abs/2510.13101)|null|
 |**2025-10-27**|**Passive Microwave Tag Classification Using RF Fingerprinting and Machine Learning**|Cory Hilton et.al.|[2510.12930](http://arxiv.org/abs/2510.12930)|null|
 |**2025-09-27**|**Dual-Function Beam Pattern Design for Multi-Target ISAC Systems: A Decoupled Approach**|Wilson de Souza Junior et.al.|[2509.23302](http://arxiv.org/abs/2509.23302)|null|
@@ -186,7 +188,7 @@
 |**2024-05-18**|**LiDAR Point Cloud-based Multiple Vehicle Tracking with Probabilistic Measurement-Region Association**|Guanhua Ding et.al.|[2403.06423](http://arxiv.org/abs/2403.06423)|null|
 |**2024-02-26**|**Sounding-Based Evaluation of Multi-Sensor ISAC Networks for Drone Applications: Measurement and Simulation Perspectives**|Julia Beuster et.al.|[2402.16591](http://arxiv.org/abs/2402.16591)|null|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## Track-Before-Detect (TBD)
 
@@ -207,7 +209,7 @@
 |**2020-07-09**|**A Track-Before-Detect Approach to Multi-Target Tracking on Automotive Radar Sensor Data**|David Meister et.al.|[2006.02755](http://arxiv.org/abs/2006.02755)|null|
 |**2025-07-03**|**Coherent Track Before Detect: Detection via simultaneous trajectory estimation and long time integration**|Kimin Kim et.al.|[1709.00310](http://arxiv.org/abs/1709.00310)|null|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## Extended / Group / Cluster Targets
 
@@ -215,7 +217,7 @@
 |---|---|---|---|---|
 |**2026-03-07**|**Multipath Extended Target Tracking with Labeled Random Finite Sets**|Guanhua Ding et.al.|[2602.03464](http://arxiv.org/abs/2602.03464)|null|
 |**2025-12-16**|**Quadratic Kalman Filter for Elliptical Extended Object Tracking based on Decoupling State Components**|Simon Steuernagel et.al.|[2512.14426](http://arxiv.org/abs/2512.14426)|null|
-|**2025-09-03**|**Multi-Sensor Fusion for Extended Object Tracking Exploiting Active and Passive Radio Signals**|Hong Zhu et.al.|[2509.03686](http://arxiv.org/abs/2509.03686)|null|
+|**2026-04-07**|**Multi-Sensor Fusion for Extended Object Tracking Exploiting Active and Passive Radio Signals**|Hong Zhu et.al.|[2509.03686](http://arxiv.org/abs/2509.03686)|null|
 |**2025-08-13**|**Offline Auto Labeling: BAAS**|Stefan Haag et.al.|[2508.09585](http://arxiv.org/abs/2508.09585)|null|
 |**2025-04-07**|**Grouped Target Tracking and Seamless People Counting with a 24 GHz MIMO FMCW**|Dingyang Wang et.al.|[2504.04969](http://arxiv.org/abs/2504.04969)|null|
 |**2025-04-01**|**Deep Learning-Based Extended Target Tracking in ISAC Systems**|Yiqiu Wang et.al.|[2504.00576](http://arxiv.org/abs/2504.00576)|null|
@@ -226,7 +228,7 @@
 |**2021-05-24**|**Real-time People Tracking and Identification from Sparse mm-Wave Radar Point-clouds**|Jacopo Pegoraro et.al.|[2105.11368](http://arxiv.org/abs/2105.11368)|null|
 |**2017-02-21**|**Extended Object Tracking: Introduction, Overview and Applications**|Karl Granstrom et.al.|[1604.00970](http://arxiv.org/abs/1604.00970)|null|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## Ballistic / Missile / Re-entry Tracking
 
@@ -234,12 +236,13 @@
 |---|---|---|---|---|
 |**2024-10-14**|**Online waveform selection for cognitive radar**|Thulasi Tholeti et.al.|[2410.10591](http://arxiv.org/abs/2410.10591)|null|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## Deep Learning for Radar Detection & Tracking
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-04-07**|**Near-Field Integrated Sensing, Computing and Semantic Communication in Digital Twin-Assisted Vehicular Networks**|Yinchao Yang et.al.|[2604.05797](http://arxiv.org/abs/2604.05797)|null|
 |**2026-04-06**|**Activity Recognition Using mm-Wave Radar and Deep Learning: Prayer Tracker Case Study**|Karim Saifullin et.al.|[2604.04540](http://arxiv.org/abs/2604.04540)|null|
 |**2026-02-23**|**Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning**|Umut Utku Erdem et.al.|[2602.19877](http://arxiv.org/abs/2602.19877)|null|
 |**2025-12-31**|**Noise-Aware and Dynamically Adaptive Federated Defense Framework for SAR Image Target Recognition**|Yuchao Hou et.al.|[2601.00900](http://arxiv.org/abs/2601.00900)|null|
@@ -294,7 +297,7 @@
 |**2023-09-02**|**Robust Joint Active-Passive Beamforming Design for IRS-Assisted ISAC Systems**|Mahmoud AlaaEldin et.al.|[2309.00978](http://arxiv.org/abs/2309.00978)|null|
 |**2023-08-17**|**Data-driven Integrated Sensing and Communication: Recent Advances, Challenges, and Future Prospects**|Hammam Salem et.al.|[2308.09090](http://arxiv.org/abs/2308.09090)|null|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## Radar Point Cloud Tracking (mmWave / automotive)
 
@@ -337,12 +340,13 @@
 |**2019-11-14**|**Multiple Patients Behavior Detection in Real-time using mmWave Radar and Deep CNNs**|Feng Jin et.al.|[1911.06363](http://arxiv.org/abs/1911.06363)|null|
 |**2019-08-19**|**Demonstration of 3D ISAR Security Imaging at 24GHz with a Sparse MIMO Array**|Zhanyu Zhu et.al.|[1908.06619](http://arxiv.org/abs/1908.06619)|null|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## Range-Doppler / Micro-Doppler (learning-based)
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-04-07**|**Quasi-stationary Slice Detection-Based Robust Respiration Rate Estimation under Large-scale Random Body Movement**|Chendong Xu et.al.|[2604.05353](http://arxiv.org/abs/2604.05353)|null|
 |**2026-03-30**|**Radar Cross Section Characterization of Quantized Reconfigurable Intelligent Surfaces**|Kainat Yasmeen et.al.|[2603.27961](http://arxiv.org/abs/2603.27961)|null|
 |**2026-02-12**|**Around-the-corner Radar Sensing Using Reconfigurable Intelligent Surface**|Kainat Yasmeen et.al.|[2602.11471](http://arxiv.org/abs/2602.11471)|null|
 |**2026-01-25**|**A Physics-Informed Digital Twin Framework for Calibrated Sim-to-Real FMCW Radar Occupancy Estimation**|Huy Trinh et.al.|[2601.17871](http://arxiv.org/abs/2601.17871)|null|
@@ -401,12 +405,13 @@
 |**2023-04-08**|**Neural Network-Based Multi-Target Detection within Correlated Heavy-Tailed Clutter**|Stefan Feintuch et.al.|[2210.12042](http://arxiv.org/abs/2210.12042)|null|
 |**2022-08-30**|**Micro-Vibration Modes Reconstruction Based on Micro-Doppler Coincidence Imaging**|Shuang Liu et.al.|[2208.13952](http://arxiv.org/abs/2208.13952)|null|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## ISAC / JCAS / RadCom Tracking
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-04-07**|**Near-Field Integrated Sensing, Computing and Semantic Communication in Digital Twin-Assisted Vehicular Networks**|Yinchao Yang et.al.|[2604.05797](http://arxiv.org/abs/2604.05797)|null|
 |**2026-04-03**|**MIMO OFDM-Enabled ISAC for Low-Altitude Non-Cooperative UAV Surveillance: A Survey**|Shiyu Bai et.al.|[2604.02680](http://arxiv.org/abs/2604.02680)|null|
 |**2026-04-02**|**Evaluation of gNB Monostatic Sensing for UAV Use Case**|Steve Blandino et.al.|[2604.02205](http://arxiv.org/abs/2604.02205)|null|
 |**2026-04-02**|**Grey-Box Bayesian Optimization for ISAC in Fluid-Antenna Assisted Air-Ground Network**|Gangyong Zhu et.al.|[2604.02181](http://arxiv.org/abs/2604.02181)|null|
@@ -445,7 +450,7 @@
 |**2025-11-11**|**Short Blocks, Fast Sensing: Finite Blocklength Tradeoffs in RIS-Assisted ISAC**|Adam Umra et.al.|[2511.02673](http://arxiv.org/abs/2511.02673)|null|
 |**2025-10-29**|**Echo-Conditioned Denoising Diffusion Probabilistic Models for Multi-Target Tracking in RF Sensing**|Amirhossein Azarbahram et.al.|[2510.25464](http://arxiv.org/abs/2510.25464)|null|
 |**2025-10-28**|**Joint Beamforming for Multi-user Multi-target FD ISAC System: A Hybrid GRQ-GA Approach**|Duc Nguyen Dao et.al.|[2510.24243](http://arxiv.org/abs/2510.24243)|null|
-|**2025-10-25**|**Experimental Demonstration of Multi-Object Tracking in Integrated Sensing and Communication**|Maximilian Bauhofer et.al.|[2510.22180](http://arxiv.org/abs/2510.22180)|null|
+|**2026-04-07**|**Experimental Demonstration of Multi-Target Tracking in Integrated Sensing and Communication**|Maximilian Bauhofer et.al.|[2510.22180](http://arxiv.org/abs/2510.22180)|null|
 |**2025-10-17**|**Multi-Target Flexible Angular Emulation for ISAC Base Station Testing Using a Conductive Amplitude and Phase Matrix Setup: Framework and Experimental Validation**|Chunhui Li et.al.|[2510.15457](http://arxiv.org/abs/2510.15457)|null|
 |**2025-10-15**|**Constellation Design in OFDM-ISAC over Data Payloads: From MSE Analysis to Experimentation**|Kawon Han et.al.|[2510.13101](http://arxiv.org/abs/2510.13101)|null|
 |**2025-10-09**|**On Estimation of Angles of Arrival in Monostatic ISAC Without Instantaneous Transmit CSI**|Ataher Sams et.al.|[2510.08793](http://arxiv.org/abs/2510.08793)|null|
@@ -477,7 +482,7 @@
 |**2025-06-19**|**Refining Ray-Tracing Accuracy and Efficiency in the Context of FRMCS Urban Railway Channel Predictions**|Romain Charbonnier et.al.|[2506.16236](http://arxiv.org/abs/2506.16236)|null|
 |**2025-06-08**|**Near-Field Integrated Sensing and Communication for Multi-Target Indication**|Hang Ruan et.al.|[2506.07052](http://arxiv.org/abs/2506.07052)|null|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## Radar Sensor Fusion Tracking (optional)
 
@@ -487,7 +492,7 @@
 |**2025-12-19**|**Distributed Multisensor ISAC**|Reiner Thomä et.al.|[2511.13104](http://arxiv.org/abs/2511.13104)|null|
 |**2026-01-09**|**Intelligent Multimodal Multi-Sensor Fusion-Based UAV Identification, Localization, and Countermeasures for Safeguarding Low-Altitude Economy**|Yi Tao et.al.|[2510.22947](http://arxiv.org/abs/2510.22947)|null|
 |**2025-09-29**|**Infrastructure Sensor-enabled Vehicle Data Generation using Multi-Sensor Fusion for Proactive Safety Applications at Work Zone**|Suhala Rabab Saba et.al.|[2509.25452](http://arxiv.org/abs/2509.25452)|null|
-|**2025-09-03**|**Multi-Sensor Fusion for Extended Object Tracking Exploiting Active and Passive Radio Signals**|Hong Zhu et.al.|[2509.03686](http://arxiv.org/abs/2509.03686)|null|
+|**2026-04-07**|**Multi-Sensor Fusion for Extended Object Tracking Exploiting Active and Passive Radio Signals**|Hong Zhu et.al.|[2509.03686](http://arxiv.org/abs/2509.03686)|null|
 |**2025-07-31**|**A Unified Perception-Language-Action Framework for Adaptive Autonomous Driving**|Yi Zhang et.al.|[2507.23540](http://arxiv.org/abs/2507.23540)|null|
 |**2025-05-11**|**VALISENS: A Validated Innovative Multi-Sensor System for Cooperative Automated Driving**|Lei Wan et.al.|[2505.06980](http://arxiv.org/abs/2505.06980)|null|
 |**2026-03-29**|**Securing the Skies: A Comprehensive Survey on Anti-UAV Methods, Benchmarking, and Future Directions**|Yifei Dong et.al.|[2504.11967](http://arxiv.org/abs/2504.11967)|null|
@@ -514,7 +519,7 @@
 |**2016-03-21**|**Distributed Multi-Sensor Fusion Using Generalized Multi-Bernoulli Densities**|Meng Jiang et.al.|[1603.06349](http://arxiv.org/abs/1603.06349)|null|
 |**2016-03-09**|**Multisensor--Multitarget Bearing--Only Sensor Registration**|Ehsan Taghavi et.al.|[1603.03450](http://arxiv.org/abs/1603.03450)|null|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
