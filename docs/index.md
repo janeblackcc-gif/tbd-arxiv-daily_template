@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.04.08
+## Updated on 2026.04.09
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -116,6 +116,9 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-08**|**Radio-Frequency Inverse Rendering for Wireless Environment Modeling**|Fuhai Wang et.al.|[2604.07086](http://arxiv.org/abs/2604.07086)|null|
+|**2026-04-08**|**ELC: Evidential Lifelong Classifier for Uncertainty Aware Radar Pulse Classification**|Mohamed Rabie et.al.|[2604.06958](http://arxiv.org/abs/2604.06958)|null|
+|**2026-04-08**|**SMCNet: Supervised Surface Material Classification Using mmWave Radar IQ Signals and Complex-valued CNNs**|Stefan Hägele et.al.|[2604.06847](http://arxiv.org/abs/2604.06847)|null|
 |**2026-03-07**|**Multipath Extended Target Tracking with Labeled Random Finite Sets**|Guanhua Ding et.al.|[2602.03464](http://arxiv.org/abs/2602.03464)|null|
 |**2026-02-02**|**A Track-Before-Detect Trajectory Multi-Bernoulli Filter for Generalised Superpositional Measurements**|Sion Lynch et.al.|[2602.02365](http://arxiv.org/abs/2602.02365)|null|
 |**2025-12-31**|**No Vision, No Wearables: 5G-based 2D Human Pose Recognition with Integrated Sensing and Communications**|Haojin Li et.al.|[2512.24923](http://arxiv.org/abs/2512.24923)|null|
@@ -380,6 +383,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-08**|**Reliable Non-Line-of-Sight Intrusion Detection with Integrated Sensing and Communications Hardware**|Paolo Tosi et.al.|[2604.07032](http://arxiv.org/abs/2604.07032)|null|
 |**2026-04-07**|**Near-Field Integrated Sensing, Computing and Semantic Communication in Digital Twin-Assisted Vehicular Networks**|Yinchao Yang et.al.|[2604.05797](http://arxiv.org/abs/2604.05797)|null|
 |**2026-04-03**|**MIMO OFDM-Enabled ISAC for Low-Altitude Non-Cooperative UAV Surveillance: A Survey**|Shiyu Bai et.al.|[2604.02680](http://arxiv.org/abs/2604.02680)|null|
 |**2026-04-02**|**Evaluation of gNB Monostatic Sensing for UAV Use Case**|Steve Blandino et.al.|[2604.02205](http://arxiv.org/abs/2604.02205)|null|
