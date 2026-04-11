@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.04.09
+## Updated on 2026.04.11
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -383,7 +383,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-08**|**Reliable Non-Line-of-Sight Intrusion Detection with Integrated Sensing and Communications Hardware**|Paolo Tosi et.al.|[2604.07032](http://arxiv.org/abs/2604.07032)|null|
+|**2026-04-09**|**Temporal Graph Neural Network for ISAC Target Detection and Tracking**|Saiedeh Maboud Sanaie et.al.|[2604.08306](http://arxiv.org/abs/2604.08306)|null|
+|**2026-04-09**|**Reliable Non-Line-of-Sight Intrusion Detection with Integrated Sensing and Communications Hardware**|Paolo Tosi et.al.|[2604.07032](http://arxiv.org/abs/2604.07032)|null|
 |**2026-04-07**|**Near-Field Integrated Sensing, Computing and Semantic Communication in Digital Twin-Assisted Vehicular Networks**|Yinchao Yang et.al.|[2604.05797](http://arxiv.org/abs/2604.05797)|null|
 |**2026-04-03**|**MIMO OFDM-Enabled ISAC for Low-Altitude Non-Cooperative UAV Surveillance: A Survey**|Shiyu Bai et.al.|[2604.02680](http://arxiv.org/abs/2604.02680)|null|
 |**2026-04-02**|**Evaluation of gNB Monostatic Sensing for UAV Use Case**|Steve Blandino et.al.|[2604.02205](http://arxiv.org/abs/2604.02205)|null|
