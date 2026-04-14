@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.04.13
+## Updated on 2026.04.14
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -383,6 +383,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-12**|**Rain Rate Estimation Bounds and Weather-Adaptive Pilot Allocation for LEO Satellite ISAC**|Haofan Dong et.al.|[2604.10830](http://arxiv.org/abs/2604.10830)|null|
+|**2026-04-11**|**Deep Reinforcement Learning for Cognitive Time-Division Joint SAR and Secure Communications**|Mohamed-Amine Lahmeri et.al.|[2604.09978](http://arxiv.org/abs/2604.09978)|null|
 |**2026-04-09**|**Temporal Graph Neural Network for ISAC Target Detection and Tracking**|Saiedeh Maboud Sanaie et.al.|[2604.08306](http://arxiv.org/abs/2604.08306)|null|
 |**2026-04-09**|**Reliable Non-Line-of-Sight Intrusion Detection with Integrated Sensing and Communications Hardware**|Paolo Tosi et.al.|[2604.07032](http://arxiv.org/abs/2604.07032)|null|
 |**2026-04-07**|**Near-Field Integrated Sensing, Computing and Semantic Communication in Digital Twin-Assisted Vehicular Networks**|Yinchao Yang et.al.|[2604.05797](http://arxiv.org/abs/2604.05797)|null|
