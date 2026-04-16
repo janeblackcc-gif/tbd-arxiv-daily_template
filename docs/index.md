@@ -2,13 +2,14 @@
 layout: default
 ---
 
-## Updated on 2026.04.15
+## Updated on 2026.04.16
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-15**|**A Variational Message Passing Framework for Multi-Sensor Multi-Object Tracking using Raw Radar Signals**|Anders Malthe Westerkam et.al.|[2604.13884](http://arxiv.org/abs/2604.13884)|null|
 |**2026-04-14**|**RIS-Aided Sensing: Experimental Validation of Radar 3D Imaging in the mmWave Band**|Sergio Micó-Rosa et.al.|[2604.12466](http://arxiv.org/abs/2604.12466)|null|
 |**2026-04-07**|**Near-Field Integrated Sensing, Computing and Semantic Communication in Digital Twin-Assisted Vehicular Networks**|Yinchao Yang et.al.|[2604.05797](http://arxiv.org/abs/2604.05797)|null|
 |**2026-03-11**|**Flexible Multi-Target Angular Emulation for Over-the-Air Testing of Large-Scale ISAC Base Stations: Principle and Experimental Verification**|Chunhui Li et.al.|[2603.10629](http://arxiv.org/abs/2603.10629)|null|
@@ -465,6 +466,9 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-15**|**Towards Multi-Object-Tracking with Radar on a Fast Moving Vehicle: On the Potential of Processing Radar in the Frequency Domain**|Tim Hansen et.al.|[2604.14013](http://arxiv.org/abs/2604.14013)|null|
+|**2026-04-15**|**A Variational Message Passing Framework for Multi-Sensor Multi-Object Tracking using Raw Radar Signals**|Anders Malthe Westerkam et.al.|[2604.13884](http://arxiv.org/abs/2604.13884)|null|
+|**2026-04-15**|**Radar-Informed 3D Multi-Object Tracking under Adverse Conditions**|Bingxue Xu et.al.|[2604.13571](http://arxiv.org/abs/2604.13571)|null|
 |**2026-03-16**|**Context-Aware Sensor Modeling for Asynchronous Multi-Sensor Tracking in Stone Soup**|Martin Vonheim Larsen et.al.|[2603.15137](http://arxiv.org/abs/2603.15137)|null|
 |**2025-12-19**|**Distributed Multisensor ISAC**|Reiner Thomä et.al.|[2511.13104](http://arxiv.org/abs/2511.13104)|null|
 |**2026-01-09**|**Intelligent Multimodal Multi-Sensor Fusion-Based UAV Identification, Localization, and Countermeasures for Safeguarding Low-Altitude Economy**|Yi Tao et.al.|[2510.22947](http://arxiv.org/abs/2510.22947)|null|
