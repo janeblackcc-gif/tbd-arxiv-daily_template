@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.04.20
+## Updated on 2026.04.21
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -74,6 +74,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-17**|**Knowledge Distillation for Lightweight Multimodal Sensing-Aided mmWave Beam Tracking**|Mengyuan Ma et.al.|[2604.16708](http://arxiv.org/abs/2604.16708)|null|
 |**2026-02-09**|**RFSoC-Based Integrated Navigation and Sensing Using NavIC**|Riya Sachdeva et.al.|[2602.08596](http://arxiv.org/abs/2602.08596)|null|
 |**2025-12-01**|**Multimodal Mixture-of-Experts for ISAC in Low-Altitude Wireless Networks**|Kai Zhang et.al.|[2512.01750](http://arxiv.org/abs/2512.01750)|null|
 |**2026-02-12**|**SAFE-IMM: Robust and Lightweight Radar-Based Object Tracking on Mobile Platforms**|Dnyandeep Mandaokar et.al.|[2511.20294](http://arxiv.org/abs/2511.20294)|null|
@@ -222,6 +223,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-18**|**Multi-stage Planning for Multi-target Surveillance using Aircrafts Equipped with Synthetic Aperture Radars Aware of Target Visibility**|Daniel Fuertes et.al.|[2604.16962](http://arxiv.org/abs/2604.16962)|null|
+|**2026-04-17**|**Knowledge Distillation for Lightweight Multimodal Sensing-Aided mmWave Beam Tracking**|Mengyuan Ma et.al.|[2604.16708](http://arxiv.org/abs/2604.16708)|null|
 |**2026-04-07**|**Near-Field Integrated Sensing, Computing and Semantic Communication in Digital Twin-Assisted Vehicular Networks**|Yinchao Yang et.al.|[2604.05797](http://arxiv.org/abs/2604.05797)|null|
 |**2026-04-06**|**Activity Recognition Using mm-Wave Radar and Deep Learning: Prayer Tracker Case Study**|Karim Saifullin et.al.|[2604.04540](http://arxiv.org/abs/2604.04540)|null|
 |**2026-02-23**|**Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning**|Umut Utku Erdem et.al.|[2602.19877](http://arxiv.org/abs/2602.19877)|null|
@@ -329,7 +332,7 @@ layout: default
 |**2026-01-25**|**A Physics-Informed Digital Twin Framework for Calibrated Sim-to-Real FMCW Radar Occupancy Estimation**|Huy Trinh et.al.|[2601.17871](http://arxiv.org/abs/2601.17871)|null|
 |**2026-01-25**|**Doppler-Domain Respiratory Amplification for Semi-Static Human Occupancy Detection Using Low-Resolution SIMO FMCW Radar**|Huy Trinh et.al.|[2601.17721](http://arxiv.org/abs/2601.17721)|null|
 |**2026-01-17**|**Radar-Based Fall Detection for Assisted Living: A Digital-Twin Representation Case Study**|Sebastian Ratto et.al.|[2601.11938](http://arxiv.org/abs/2601.11938)|null|
-|**2026-01-17**|**Indoor Occupancy Classification using a Compact Hybrid Quantum-Classical Model Enabled by a Physics-Informed Radar Digital Twin**|Sebastian Ratto et.al.|[2601.11929](http://arxiv.org/abs/2601.11929)|null|
+|**2026-04-17**|**Indoor Occupancy Classification using a Compact Hybrid Quantum-Classical Model Enabled by a Physics-Informed Radar Digital Twin**|Sebastian Ratto et.al.|[2601.11929](http://arxiv.org/abs/2601.11929)|null|
 |**2025-12-19**|**FOODER: Real-time Facial Authentication and Expression Recognition**|Sabri Mustafa Kahya et.al.|[2512.18057](http://arxiv.org/abs/2512.18057)|null|
 |**2025-12-09**|**A New Particle Filter for Target Tracking in MIMO OFDM Integrated Sensing and Communications**|Shixiong Wang et.al.|[2512.09098](http://arxiv.org/abs/2512.09098)|null|
 |**2025-11-29**|**Vision Transformer for Classification of UAV and Helicopters Using Micro-Doppler Spectrograms in Surveillance Radar**|Arkadiusz Czuba et.al.|[2512.00374](http://arxiv.org/abs/2512.00374)|null|
