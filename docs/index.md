@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.04.29
+## Updated on 2026.04.30
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -390,6 +390,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-29**|**CRLB and Parameter Estimation for OFDM-ISAC with Non-Uniform Sparse Resource Allocation**|Wenjie Zhang et.al.|[2604.26612](http://arxiv.org/abs/2604.26612)|null|
+|**2026-04-29**|**Optimizing Tracking Accuracy in Energy-Constrained Multimodal ISAC via Lyapunov-Driven Heterogeneous Mixture-of-Experts**|Wenqi Fan et.al.|[2604.26330](http://arxiv.org/abs/2604.26330)|null|
 |**2026-04-21**|**Networked Tracking of Multiple Moving Targets in 6G Network**|Yanmo Hu et.al.|[2604.19709](http://arxiv.org/abs/2604.19709)|null|
 |**2026-04-21**|**Pilot-Free Predictive Multi-User Beamforming via Sensing Management in Cell-Free Networks**|Eren Berk Kama et.al.|[2604.19660](http://arxiv.org/abs/2604.19660)|null|
 |**2026-04-21**|**Active Inference-Enabled Agentic Closed-Loop ISAC with Long-Horizon Planning**|Guangjin Pan et.al.|[2604.19599](http://arxiv.org/abs/2604.19599)|null|
