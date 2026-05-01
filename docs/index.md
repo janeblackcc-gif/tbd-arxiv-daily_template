@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.04.30
+## Updated on 2026.05.01
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -224,6 +224,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-30**|**Neural Aided Kalman Filtering for UAV State Estimation in Degraded Sensing Environments**|Akhil Gupta et.al.|[2604.28107](http://arxiv.org/abs/2604.28107)|null|
 |**2026-04-18**|**Multi-stage Planning for Multi-target Surveillance using Aircrafts Equipped with Synthetic Aperture Radars Aware of Target Visibility**|Daniel Fuertes et.al.|[2604.16962](http://arxiv.org/abs/2604.16962)|null|
 |**2026-04-17**|**Knowledge Distillation for Lightweight Multimodal Sensing-Aided mmWave Beam Tracking**|Mengyuan Ma et.al.|[2604.16708](http://arxiv.org/abs/2604.16708)|null|
 |**2026-04-07**|**Near-Field Integrated Sensing, Computing and Semantic Communication in Digital Twin-Assisted Vehicular Networks**|Yinchao Yang et.al.|[2604.05797](http://arxiv.org/abs/2604.05797)|null|
