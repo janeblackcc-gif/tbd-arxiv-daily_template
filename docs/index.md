@@ -2,13 +2,15 @@
 layout: default
 ---
 
-## Updated on 2026.05.04
+## Updated on 2026.05.06
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-04**|**Waveform Design for 6G ISAC Systems Under Full-Duplex Residual Self-Interference**|Ning Wei et.al.|[2605.02157](http://arxiv.org/abs/2605.02157)|null|
+|**2026-05-03**|**Discover Fast Power Allocation Solution for Multi-Target Tracking via AlphaEvolve Evolution**|Zhenkang Hou et.al.|[2605.01794](http://arxiv.org/abs/2605.01794)|null|
 |**2026-05-01**|**State Forecasting in an Estimation Framework with Surrogate Sensor Modeling**|Sriram Narayanan et.al.|[2604.19442](http://arxiv.org/abs/2604.19442)|null|
 |**2026-04-15**|**A Variational Message Passing Framework for Multi-Sensor Multi-Object Tracking using Raw Radar Signals**|Anders Malthe Westerkam et.al.|[2604.13884](http://arxiv.org/abs/2604.13884)|null|
 |**2026-04-14**|**RIS-Aided Sensing: Experimental Validation of Radar 3D Imaging in the mmWave Band**|Sergio Micó-Rosa et.al.|[2604.12466](http://arxiv.org/abs/2604.12466)|null|
@@ -224,6 +226,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-03**|**Discover Fast Power Allocation Solution for Multi-Target Tracking via AlphaEvolve Evolution**|Zhenkang Hou et.al.|[2605.01794](http://arxiv.org/abs/2605.01794)|null|
 |**2026-04-30**|**Neural Aided Kalman Filtering for UAV State Estimation in Degraded Sensing Environments**|Akhil Gupta et.al.|[2604.28107](http://arxiv.org/abs/2604.28107)|null|
 |**2026-04-18**|**Multi-stage Planning for Multi-target Surveillance using Aircrafts Equipped with Synthetic Aperture Radars Aware of Target Visibility**|Daniel Fuertes et.al.|[2604.16962](http://arxiv.org/abs/2604.16962)|null|
 |**2026-04-17**|**Knowledge Distillation for Lightweight Multimodal Sensing-Aided mmWave Beam Tracking**|Mengyuan Ma et.al.|[2604.16708](http://arxiv.org/abs/2604.16708)|null|
@@ -391,6 +394,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-05**|**Enabling Indoor Multi-Person Tracking With 6G mmWave ISAC Systems**|Chongrui Wang et.al.|[2605.03333](http://arxiv.org/abs/2605.03333)|null|
+|**2026-05-04**|**Waveform Design for 6G ISAC Systems Under Full-Duplex Residual Self-Interference**|Ning Wei et.al.|[2605.02157](http://arxiv.org/abs/2605.02157)|null|
 |**2026-04-29**|**CRLB and Parameter Estimation for OFDM-ISAC with Non-Uniform Sparse Resource Allocation**|Wenjie Zhang et.al.|[2604.26612](http://arxiv.org/abs/2604.26612)|null|
 |**2026-04-29**|**Optimizing Tracking Accuracy in Energy-Constrained Multimodal ISAC via Lyapunov-Driven Heterogeneous Mixture-of-Experts**|Wenqi Fan et.al.|[2604.26330](http://arxiv.org/abs/2604.26330)|null|
 |**2026-04-21**|**Networked Tracking of Multiple Moving Targets in 6G Network**|Yanmo Hu et.al.|[2604.19709](http://arxiv.org/abs/2604.19709)|null|
