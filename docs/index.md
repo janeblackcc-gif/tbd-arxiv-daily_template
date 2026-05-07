@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.05.06
+## Updated on 2026.05.07
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -122,6 +122,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-05**|**Statistical Model of Time-varying Backscatter Power of Monostatic RF Sensing Channels in Urban Canyons**|Dmitry Chizhik et.al.|[2605.04292](http://arxiv.org/abs/2605.04292)|null|
 |**2026-04-08**|**Radio-Frequency Inverse Rendering for Wireless Environment Modeling**|Fuhai Wang et.al.|[2604.07086](http://arxiv.org/abs/2604.07086)|null|
 |**2026-04-08**|**ELC: Evidential Lifelong Classifier for Uncertainty Aware Radar Pulse Classification**|Mohamed Rabie et.al.|[2604.06958](http://arxiv.org/abs/2604.06958)|null|
 |**2026-04-08**|**SMCNet: Supervised Surface Material Classification Using mmWave Radar IQ Signals and Complex-valued CNNs**|Stefan Hägele et.al.|[2604.06847](http://arxiv.org/abs/2604.06847)|null|
