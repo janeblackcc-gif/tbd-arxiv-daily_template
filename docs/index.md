@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.05.10
+## Updated on 2026.05.11
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Radar Multi-Target Tracking (MTT)
@@ -77,6 +77,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-08**|**MORPH-U: Multi-Objective Resilient Motion Planning for V2X-Enabled Autonomous Driving in High-Uncertainty Environments via Simulation**|Shih-Yu Lai et.al.|[2605.07370](http://arxiv.org/abs/2605.07370)|null|
 |**2026-04-17**|**Knowledge Distillation for Lightweight Multimodal Sensing-Aided mmWave Beam Tracking**|Mengyuan Ma et.al.|[2604.16708](http://arxiv.org/abs/2604.16708)|null|
 |**2026-02-09**|**RFSoC-Based Integrated Navigation and Sensing Using NavIC**|Riya Sachdeva et.al.|[2602.08596](http://arxiv.org/abs/2602.08596)|null|
 |**2025-12-01**|**Multimodal Mixture-of-Experts for ISAC in Low-Altitude Wireless Networks**|Kai Zhang et.al.|[2512.01750](http://arxiv.org/abs/2512.01750)|null|
@@ -156,7 +157,7 @@ layout: default
 |**2025-05-01**|**mmSnap: Bayesian One-Shot Fusion in a Self-Calibrated mmWave Radar Network**|Anirban Banik et.al.|[2505.00857](http://arxiv.org/abs/2505.00857)|null|
 |**2025-04-29**|**Sense-then-Charge: Wireless Power Transfer to Unresponsive Devices with Unknown Location**|Amirhossein Azarbahram et.al.|[2504.20580](http://arxiv.org/abs/2504.20580)|null|
 |**2025-04-23**|**Association-Based Track-Before-Detect with Object Contribution Probabilities**|Thomas Kropfreiter et.al.|[2504.16814](http://arxiv.org/abs/2504.16814)|null|
-|**2025-04-19**|**Micro-Ring Perceptron Sensor for High-Speed, Low-Power Radio-Frequency Signal**|Bo-Han Wu et.al.|[2504.16119](http://arxiv.org/abs/2504.16119)|null|
+|**2026-05-06**|**Microring Perceptron Sensing for Low-Power Radio-Frequency Detection with Quantum-Compatible Photonic Preprocessing**|Bo-Han Wu et.al.|[2504.16119](http://arxiv.org/abs/2504.16119)|null|
 |**2025-03-21**|**On the Sensing Performance of FMCW-based Integrated Sensing and Communications with Arbitrary Constellations**|Daniel Gil Gaviria et.al.|[2503.17215](http://arxiv.org/abs/2503.17215)|null|
 |**2025-03-15**|**Optimal Hybrid Transmit Beamforming for mm-Wave Integrated Sensing and Communication**|Jitendra Singh et.al.|[2503.12129](http://arxiv.org/abs/2503.12129)|null|
 |**2025-02-17**|**QoS based resource management for concurrent operation using MCTS**|Sebastian Durst et.al.|[2502.11938](http://arxiv.org/abs/2502.11938)|null|
